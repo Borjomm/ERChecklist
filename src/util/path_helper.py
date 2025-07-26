@@ -56,14 +56,22 @@ class PathHelper():
     def write_to_settings(self, path, slot):
         self.settings.setValue("most_recent", path)
         self.settings.setValue("char_slot", slot)
-        self.add_to_recent_list(path)
+        self.add_to_recent_list(path, slot)
 
-    def add_to_recent_list(self, path):
-        if path not in self._recent_list:
-            self._recent_list.insert(0, path)
-            self._recent_list = self._recent_list[:5]
-            self.settings.setValue("recent_list", self._recent_list)
-            self.main_window.generate_recent()
+    def add_to_recent_list(self, path, slot):
+        new_entry = (path, slot)
+        found_index = -1
+        for i, (e_path, _) in enumerate(self._recent_list):
+            if e_path == path:
+                found_index = i
+                break
+        
+        if found_index != -1:
+            self._recent_list.pop(found_index)
+        self._recent_list.insert(0, new_entry)
+        self._recent_list = self._recent_list[:5]
+        self.settings.setValue("recent_list", self._recent_list)
+        self.main_window.generate_recent()
 
     def get_character_slot(self):
         value = self.settings.value("char_slot")

@@ -72,9 +72,9 @@ class MainWindow(QMainWindow):
 
     def generate_recent(self):
         self.load_recent.clear()
-        for p in self.path_helper.get_recent_list():
+        for p, s in self.path_helper.get_recent_list():
             
-            action = utils.make_action(self, p, partial(self.file_io.load_file, p, 0))
+            action = utils.make_action(self, p, partial(self.file_io.load_file, p, s))
             self.load_recent.addAction(action)
 
     def set_watcher(self, filepath: str):
