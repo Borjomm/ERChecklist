@@ -1,0 +1,1402 @@
+﻿--- D:\Python\save_parser\src\data\consts.py ---
+from PySide6.QtCore import Qt
+
+CREATOR = "Borjom"
+APP = "EldenRingChecklist"
+DEFAULT_PATH = "AppData/Roaming/EldenRing/76561198231946968"
+
+OFFSET = Qt.ItemDataRole.UserRole
+REMEMBRANCE = Qt.ItemDataRole.UserRole + 1
+DLC = Qt.ItemDataRole.UserRole + 2
+LINK = Qt.ItemDataRole.UserRole + 3
+
+
+
+--- D:\Python\save_parser\src\data\__init__.py ---
+
+--- D:\Python\save_parser\src\parser\models.py ---
+import ctypes
+
+# A base class to ensure all our structs use 1-byte packing,
+# which is the equivalent of '#pragma pack(1)' in C.
+class PackedStructure(ctypes.Structure):
+    _pack_ = 1
+
+class CCharacterSelection(PackedStructure):
+    _fields_ = [
+        ("characterName", ctypes.c_wchar * 16),
+        ("level", ctypes.c_uint)
+    ]
+
+class CCharHeader(PackedStructure):
+    _fields_ = [
+        ("checksum", ctypes.c_char * 16),
+        ("version", ctypes.c_int)
+    ]
+
+class CGaItemEntry(PackedStructure):
+    _fields_ = [
+        ("gaHandle", ctypes.c_uint),
+        ("itemId", ctypes.c_uint),
+        ("aowId", ctypes.c_uint)
+    ]
+
+class CPlayer(PackedStructure):
+    _fields_ = [
+        ("health", ctypes.c_uint),
+        ("maxHealth", ctypes.c_uint),
+        ("baseMaxHealth", ctypes.c_uint),
+        ("FP", ctypes.c_uint),
+        ("maxFP", ctypes.c_uint),
+        ("baseMaxFP", ctypes.c_uint),
+        ("SP", ctypes.c_uint),
+        ("maxSP", ctypes.c_uint),
+        ("baseMaxSP", ctypes.c_uint),
+        ("vigor", ctypes.c_uint),
+        ("mind", ctypes.c_uint),
+        ("endurance", ctypes.c_uint),
+        ("strength", ctypes.c_uint),
+        ("dexterity", ctypes.c_uint),
+        ("intelligence", ctypes.c_uint),
+        ("faith", ctypes.c_uint),
+        ("arcane", ctypes.c_uint),
+        ("humanity", ctypes.c_uint),
+        ("level", ctypes.c_uint),
+        ("souls", ctypes.c_uint),
+        ("soulMemory", ctypes.c_uint),
+        ("characterType", ctypes.c_uint),
+        ("characterName", ctypes.c_wchar * 16),
+        ("gender", ctypes.c_ubyte),
+        ("archeType", ctypes.c_ubyte),
+        ("voiceType", ctypes.c_ubyte),
+        ("gift", ctypes.c_ubyte),
+        ("additionalTalismanSlotsCount", ctypes.c_ubyte),
+        ("summonSpiritLevel", ctypes.c_ubyte),
+        ("furlCallingFingerOn", ctypes.c_ubyte),
+        ("matchmakingWeaponLevel", ctypes.c_ubyte),
+        ("greatRuneOn", ctypes.c_ubyte),
+        ("maxCrimsonFlaskCount", ctypes.c_ubyte),
+        ("maxCeruleanFlaskCount", ctypes.c_ubyte),
+        ("padding", ctypes.c_ubyte * 29)
+    ]
+
+class CEquippedItemsGaHandles(PackedStructure):
+    _fields_ = [
+        ("leftHand1", ctypes.c_uint),
+        ("rightHand1", ctypes.c_uint),
+        ("leftHand2", ctypes.c_uint),
+        ("rightHand2", ctypes.c_uint),
+        ("leftHand3", ctypes.c_uint),
+        ("rightHand3", ctypes.c_uint),
+        ("arrows1", ctypes.c_uint),
+        ("bolts1", ctypes.c_uint),
+        ("arrows2", ctypes.c_uint),
+        ("bolts2", ctypes.c_uint),
+        ("head", ctypes.c_uint),
+        ("chest", ctypes.c_uint),
+        ("arms", ctypes.c_uint),
+        ("legs", ctypes.c_uint),
+        ("talisman1", ctypes.c_uint),
+        ("talisman2", ctypes.c_uint),
+        ("talisman3", ctypes.c_uint),
+        ("talisman4", ctypes.c_uint)
+
+    ]
+
+class CInventoryHeld(PackedStructure):
+    _fields_ = [
+        ("itemId", ctypes.c_uint),
+        ("quantity", ctypes.c_uint)
+    ]
+
+class CCharacterData(PackedStructure):
+    _fields_ = [
+        ("characterSelection", CCharacterSelection * 10),
+        ("characterHeader", CCharHeader),
+        ("gaItemCount", ctypes.c_uint),
+        ("gaItems", CGaItemEntry * 5120),
+        ("player", CPlayer),
+        ("equippedItemsGaHandles", CEquippedItemsGaHandles),
+        ("commonItemInventoryCount", ctypes.c_uint),
+        ("commonItemsInventory", CInventoryHeld * 2688),
+        ("keyItemInventoryCount", ctypes.c_uint),
+        ("keyItemsInventory", CInventoryHeld * 384),
+        ("commonItemStorageCount", ctypes.c_uint),
+        ("commonItemsStorage", CInventoryHeld * 1920),
+        ("keyItemStorageCount", ctypes.c_uint),
+        ("keyItemsStorage", CInventoryHeld * 128),
+        ("allItemsCount", ctypes.c_uint),
+        ("allItems", ctypes.c_uint * 7000),
+        ("totalDeathsCount", ctypes.c_uint),
+        ("eventFlags", ctypes.c_ubyte * 1833375),
+        ("dlc", ctypes.c_ushort)
+    ]
+
+
+
+--- D:\Python\save_parser\src\parser\parser.py ---
+import ctypes
+import os
+
+from .models import CCharacterData
+from .wrapper import CharacterData, CharacterSelection
+
+_DLL_PATH =  os.path.join(os.path.dirname(os.path.abspath(__file__)), "parser.dll")
+try:
+    _parser_lib = ctypes.CDLL(_DLL_PATH)
+except OSError as e:
+    raise ImportError(f"Could not load the C parser library at '{_DLL_PATH}'. Please ensure it is compiled and in the correct location. Error: {e}")
+
+_update_data_func = _parser_lib.update_character_data
+_update_data_func.argtypes = [ctypes.c_char_p, ctypes.c_int]
+_update_data_func.restype = ctypes.c_int
+
+_get_ptr_func = _parser_lib.get_character_data_ptr
+_get_ptr_func.restype = ctypes.POINTER(CCharacterData)
+
+_invalidate_headers_func = _parser_lib.invalidate_headers
+_invalidate_headers_func.restype = None
+
+INITIALIZED_HEADERS = False
+INITIALIZED = False
+
+def update_data(filepath: str, character_slot: int, header_mode: bool) -> int:
+    header_mode = 1 if header_mode else 0
+    global INITIALIZED, INITIALIZED_HEADERS
+    result = _update_data_func(filepath.encode(encoding="utf-8"), character_slot, header_mode)
+    if result == 1:
+        INITIALIZED_HEADERS = True
+    elif result == 0:
+        INITIALIZED_HEADERS = True
+        INITIALIZED = True
+    return result
+    
+
+def get_data() -> CharacterData:
+    if INITIALIZED:
+        return CharacterData(_get_ptr_func().contents)
+    raise MemoryError("Data is not initialized")
+
+def get_headers() -> list[CharacterSelection]:
+    if INITIALIZED_HEADERS:
+        return [CharacterSelection(_get_ptr_func().contents.characterSelection[i]) for i in range(10)]
+    raise MemoryError("Headers are not initialized")
+
+def invalidate() -> None:
+    _invalidate_headers_func()
+
+
+
+--- D:\Python\save_parser\src\parser\wrapper.py ---
+from .models import *
+
+class CharacterSelection:
+    def __init__(self, c_struct: CCharacterSelection):
+        self._struct = c_struct
+
+    @property
+    def name(self) -> str:
+        return self._struct.characterName
+    
+    @property
+    def level(self) -> int:
+        return self._struct.level
+    
+    def __str__(self) -> str:
+        return f"{self.name} - SL{self.level}"
+    
+class CharacterHeader:
+    def __init__(self, c_struct: CCharHeader):
+        self._struct = c_struct
+
+    @property
+    def checksum(self) -> bytes:
+        return self._struct.checksum
+    
+    @property
+    def version(self) -> int:
+        return self._struct.version
+    
+    def __str__(self) -> str:
+        return f"Version: {self.version}. Checksum - {self.checksum.hex()}"
+    
+class GaItemEntry:
+    def __init__(self, c_struct: CGaItemEntry):
+        self._struct = c_struct
+
+    @property
+    def ga_handle(self) -> int:
+        return self._struct.gaHandle
+    
+    @property
+    def item_id(self) -> int:
+        return self._struct.itemId
+    
+    @property
+    def ashes_id(self) -> int:
+        return self._struct.aowId
+    
+    def __str__(self) -> str:
+        return f"GA: {hex(self.ga_handle)}, ID: {hex(self.item_id)}{f', Ashes ID: {hex(self.ashes_id)}' if self.ashes_id else ''}"
+    
+class Player:
+    def __init__(self, c_struct: CPlayer):
+        self._struct = c_struct
+
+    @property
+    def health(self) -> int:
+        return self._struct.health
+    
+    @property
+    def max_health(self) -> int:
+        return self._struct.maxHealth
+    
+    @property
+    def base_max_health(self) -> int:
+        return self._struct.baseMaxHealth
+    
+    @property
+    def fp(self) -> int:
+        return self._struct.FP
+    
+    @property
+    def max_fp(self) -> int:
+        return self._struct.maxFP
+    
+    @property
+    def base_max_fp(self) -> int:
+        return self._struct.baseMaxFP
+    
+    @property
+    def sp(self) -> int:
+        return self._struct.SP
+    
+    @property
+    def max_sp(self) -> int:
+        return self._struct.maxSP
+    
+    @property
+    def base_max_sp(self) -> int:
+        return self._struct.baseMaxSP
+    
+    @property
+    def vigor(self) -> int:
+        return self._struct.vigor
+    
+    @property
+    def mind(self) -> int:
+        return self._struct.mind
+    
+    @property
+    def endurance(self) -> int:
+        return self._struct.endurance
+    
+    @property
+    def strength(self) -> int:
+        return self._struct.strength
+    
+    @property
+    def dexterity(self) -> int:
+        return self._struct.dexterity
+    
+    @property
+    def intelligence(self) -> int:
+        return self._struct.intelligence
+    
+    @property
+    def faith(self) -> int:
+        return self._struct.faith
+    
+    @property
+    def arcane(self) -> int:
+        return self._struct.arcane
+    
+    @property
+    def humanity(self) -> int:
+        return self._struct.humanity
+    
+    @property
+    def level(self) -> int:
+        return self._struct.level
+    
+    @property
+    def souls(self) -> int:
+        return self._struct.souls
+    
+    @property
+    def soul_memory(self) -> int:
+        return self._struct.soulMemory
+    
+    @property
+    def character_type(self) -> int:
+        return self._struct.characterType
+    
+    @property
+    def character_name(self) -> str:
+        return self._struct.characterName
+    
+    @property
+    def gender(self) -> int:
+        return int(self._struct.gender)
+    
+    @property
+    def arche_type(self) -> int:
+        return int(self._struct.archeType)
+    
+    @property
+    def voice_type(self) -> int:
+        return int(self._struct.voiceType)
+    
+    @property
+    def gift(self) -> int:
+        return int(self._struct.gift)
+    
+    @property
+    def talisman_slots(self) -> int:
+        return int(self._struct.additionalTalismanSlotsCount) + 1
+    
+    @property
+    def summon_spirit_level(self) -> int:
+        return int(self._struct.summonSpiritLevel)
+    
+    @property
+    def matchmaking_weapon_level(self) -> int:
+        return int(self._struct.matchmakingWeaponLevel)
+    
+    @property
+    def max_crimson_flask_count(self) -> int:
+        return int(self._struct.maxCrimsonFlaskCount)
+    
+    @property
+    def max_cerulean_flask_count(self) -> int:
+        return int(self._struct.maxCeruleanFlaskCount)
+    
+    
+    def furl_calling_finger_on(self) -> bool:
+        return self._struct.furlCallingFingerOn != 0
+    
+    def great_rune_on(self) -> bool:
+        return self._struct.greatRuneOn != 0
+    
+class EquippedItemHandles:
+    def __init__(self, c_struct: CEquippedItemsGaHandles):
+        self._struct = c_struct
+
+    @property
+    def lefthand1(self) -> int:
+        return self._struct.leftHand1
+    
+    @property
+    def lefthand2(self) -> int:
+        return self._struct.leftHand2
+    
+    @property
+    def lefthand3(self) -> int:
+        return self._struct.leftHand3
+    
+    @property
+    def righthand1(self) -> int:
+        return self._struct.rightHand1
+    
+    @property
+    def righthand2(self) -> int:
+        return self._struct.rightHand2
+    
+    @property
+    def righthand3(self) -> int:
+        return self._struct.rightHand3
+    
+    @property
+    def arrows1(self) -> int:
+        return self._struct.arrows1
+    
+    @property
+    def arrows2(self) -> int:
+        return self._struct.arrows2
+    
+    @property
+    def bolts1(self) -> int:
+        return self._struct.bolts1
+    
+    @property
+    def bolts2(self) -> int:
+        return self._struct.bolts2
+    
+    @property
+    def head(self) -> int:
+        return self._struct.head
+    
+    @property
+    def chest(self) -> int:
+        return self._struct.chest
+    
+    @property
+    def arms(self) -> int:
+        return self._struct.arms
+    
+    @property
+    def legs(self) -> int:
+        return self._struct.legs
+    
+    @property
+    def talisman1(self) -> int:
+        return self._struct.talisman1
+    
+    @property
+    def talisman2(self) -> int:
+        return self._struct.talisman2
+    
+    @property
+    def talisman3(self) -> int:
+        return self._struct.talisman3
+    
+    @property
+    def talisman4(self) -> int:
+        return self._struct.talisman4
+    
+    @property
+    def weapons(self) -> list[int]:
+        return [self.righthand1, self.righthand2, self.righthand3, self.lefthand1, self.lefthand2, self.lefthand3]
+    
+    @property
+    def projectiles(self) -> list[int]:
+        return [self.arrows1, self.arrows2, self.bolts1, self.bolts2]
+    
+    @property
+    def armor(self) -> list[int]:
+        return [self.head, self.chest, self.arms, self.legs]
+    
+    @property
+    def talismans(self) -> list[int]:
+        return [self.talisman1, self.talisman2, self.talisman3, self.talisman4]
+    
+class InventoryItem:
+    def __init__(self, c_struct: CInventoryHeld):
+        self._struct = c_struct
+
+    @property
+    def item_id(self) -> int:
+        return self._struct.itemId
+    
+    @property
+    def quantity(self) -> int:
+        return self._struct.quantity
+    
+class CharacterData:
+    def __init__(self, c_struct: CCharacterData):
+        self._struct = c_struct
+        self._character_selections = {}
+        self._player = None
+        self._header = None
+        self._ga_items_dict = None
+        self._equipped_ga_handles = None
+        self._item_set = set()
+
+
+    @property
+    def header(self) -> CharacterHeader:
+        if not self._header:
+            self._header = CharacterHeader(self._struct.characterHeader)
+        return self._header
+    
+    @property
+    def ga_item_count(self) -> int:
+        return self._struct.gaItemCount
+    
+    @property
+    def player(self) -> Player:
+        if not self._player:
+            self._player = Player(self._struct.player)
+        return self._player
+    
+    @property
+    def equipped_item_handles(self) -> EquippedItemHandles:
+        if not self._equipped_ga_handles:
+            self._equipped_ga_handles = EquippedItemHandles(self._struct.equippedItemsGaHandles)
+        return self._equipped_ga_handles
+    
+    @property
+    def common_inventory_count(self) -> int:
+        return self._struct.commonItemInventoryCount
+    
+    @property
+    def key_inventory_count(self) -> int:
+        return self._struct.keyItemInventoryCount
+    
+    @property
+    def common_storage_count(self) -> int:
+        return self._struct.commonItemStorageCount
+    
+    @property
+    def key_storage_count(self) -> int:
+        return self._struct.keyItemStorageCount
+    
+    @property
+    def all_items_count(self) -> int:
+        return self._struct.allItemsCount
+    
+    @property
+    def total_deaths_count(self) -> int:
+        return self._struct.totalDeathsCount
+    
+    def get_character_info(self, index) -> CharacterSelection:
+        if not 0 <= index < 10:
+            raise ValueError("Invalid index while getting character")
+        if index not in self._character_selections.keys():
+            self._character_selections[index] = CharacterSelection(self._struct.characterSelection[index])
+        return self._character_selections[index]
+    
+    def get_characters(self) -> list[CharacterSelection]:
+        return [self.get_character_info(i) for i in range(10)]
+    
+    def get_flag(self, bit_offset) -> bool:
+        byte = self._struct.eventFlags[bit_offset // 8]
+        bit = bit_offset % 8
+        bit_mask = 1 << bit
+        return bit_mask & byte != 0
+    
+    def has_dlc(self) -> bool:
+        print(self._struct.dlc)
+        return self._struct.dlc != 0
+    
+    def check_item_set(self) -> None:
+        if not self._item_set:
+            self._item_set = {self._struct.allItems[i] for i in range(self.all_items_count)}
+    
+    def get_items(self) -> list[int]:
+        self.check_item_set()
+        return self._item_set
+    
+    def has_item(self, item_id: int) -> bool:
+        self.check_item_set()
+        return item_id in self._item_set
+    
+    
+
+--- D:\Python\save_parser\src\parser\__init__.py ---
+from .parser import update_data, get_data, invalidate, get_headers
+
+__all__ = ["update_data", "get_data", "invalidate", "get_headers"]
+
+
+
+--- D:\Python\save_parser\src\util\path_helper.py ---
+from __future__ import annotations
+from pathlib import Path
+
+from PySide6.QtCore import QSettings, QStandardPaths
+from typing import TYPE_CHECKING
+from data import consts
+
+if TYPE_CHECKING:
+    from main_window import MainWindow
+
+class PathHelper():
+    def __init__(self, parent: "MainWindow"):
+        
+        self.main_window = parent
+        self.settings = QSettings(consts.CREATOR, consts.APP)
+        self._path = self.settings.value("most_recent")
+        value = self.settings.value("recent_list")
+        self._recent_list = value if value else []
+        if not self._path:
+            print("Finding default savefile")
+            self._path = self.get_default_save()
+            if self._path:
+                self.settings.setValue("most_recent", self._path)
+        print(f"Savefile path: {self._path}")
+        
+    
+    def get_default_save(self):
+        roaming_dir = Path(QStandardPaths.writableLocation(QStandardPaths.AppDataLocation)).parent
+        elden_ring_dir = roaming_dir / 'EldenRing'
+        if not elden_ring_dir.exists():
+            return None
+        steam_id_folders = [f for f in elden_ring_dir.iterdir() if f.is_dir()]
+        if not steam_id_folders:
+            return None
+        most_recent = None
+        path = None
+        for folder in steam_id_folders:
+            save_file = elden_ring_dir / folder / 'ER0000.sl2'
+            if not save_file.exists():
+                save_file = elden_ring_dir / folder / 'ER0000.co2'
+                if not save_file.exists():
+                    continue
+            mtime = save_file.stat().st_mtime
+            if not most_recent or most_recent < mtime:
+                most_recent = mtime
+                path = save_file
+        if not path:
+            return None
+        return str(path)
+    
+    def get_path(self):
+        if not self._path:
+            self._path = self.get_default_save()
+        return self._path
+    
+    def write_to_settings(self, path, slot):
+        self.settings.setValue("most_recent", path)
+        self.settings.setValue("char_slot", slot)
+        self.add_to_recent_list(path)
+
+    def add_to_recent_list(self, path):
+        if path not in self._recent_list:
+            self._recent_list.insert(0, path)
+            self._recent_list = self._recent_list[:5]
+            self.settings.setValue("recent_list", self._recent_list)
+            self.main_window.generate_recent()
+
+    def get_character_slot(self):
+        value = self.settings.value("char_slot")
+        return value if value else 0
+    
+    def get_recent_list(self):
+        return self._recent_list
+
+    
+            
+        
+        
+
+--- D:\Python\save_parser\src\util\utils.py ---
+from typing import Optional, Callable, Union
+
+from PySide6.QtWidgets import QWidget, QComboBox, QVBoxLayout, QLabel, QMessageBox
+from PySide6.QtGui import QGuiApplication, QAction, QKeySequence
+from PySide6.QtCore import QObject
+
+from parser.wrapper import CharacterSelection, CharacterData
+from parser import update_data, get_headers, get_data
+
+def get_spawn_coordinates(width: int, height: int):
+    screen = QGuiApplication.primaryScreen()  # РџРѕР»СѓС‡Р°РµРј РѕСЃРЅРѕРІРЅРѕР№ СЌРєСЂР°РЅ
+    wwidth = screen.geometry().width()  # РџРѕР»СѓС‡Р°РµРј РіРµРѕРјРµС‚СЂРёСЋ СЌРєСЂР°РЅР°
+    wheight = screen.geometry().height()
+    geometry = ((wwidth-width)//2, (wheight-height)//2, width, height)
+    return geometry
+
+def make_action(parent: QObject, name: str, handler: Callable, key_sequence: Optional[str] = None) -> QAction:
+    action = QAction(name, parent)
+    if key_sequence:
+        action.setShortcut(QKeySequence(key_sequence))
+    action.triggered.connect(handler)
+    return action
+
+def make_combo_widget(label_str: str, item_list: list, handler: callable, current_index: int) -> QWidget:
+    widget = QWidget()
+    label = QLabel(label_str)
+    box = QComboBox()
+    box.addItems(item_list)
+    box.setCurrentIndex(current_index)
+    box.currentIndexChanged.connect(handler)
+
+    layout = QVBoxLayout()
+    layout.addWidget(label)
+    layout.addWidget(box)
+    widget.setLayout(layout)
+    return widget
+
+def load_save(filepath: str, character_slot: int, header_mode: bool) -> Optional[Union[list[CharacterSelection], CharacterData]]:
+    code = update_data(filepath, character_slot, header_mode)
+    match code:
+        case 0:
+            return get_data()
+        case 1:
+            return get_headers()
+        case -1:
+            display_alert("Error opening save file!")
+        case -2:
+            display_alert("Save file is invalid!")
+        case -3:
+            display_alert("Memory allocation failure!")
+
+
+def display_alert(error_msg: str):
+    msg = QMessageBox(text=error_msg, title="Library error")
+    msg.exec()
+
+
+--- D:\Python\save_parser\src\util\watchdog.py ---
+import time
+import os
+from watchdog.observers import Observer
+from watchdog.events import FileSystemEventHandler
+
+from PySide6.QtCore import Signal, QThread, QTimer
+
+class WatchdogHandler(FileSystemEventHandler):
+    def __init__(self, target_file, callback):
+        super().__init__()
+        self._callback = callback
+        self._target_file = os.path.abspath(target_file)
+
+    def on_modified(self, event):
+        if not event.is_directory:
+            if os.path.abspath(event.src_path) == self._target_file:
+                self._callback(event.src_path)
+
+
+class FileWatcherThread(QThread):
+    file_changed = Signal(str)
+
+    def __init__(self, file_to_watch: str):
+        super().__init__()
+        self._target_file = os.path.abspath(file_to_watch)
+        self._watch_dir = os.path.dirname(self._target_file)
+        self._observer = Observer()
+        self._is_reloading = False
+        self._running = True
+
+    def run(self):
+        handler = WatchdogHandler(self._target_file, self._on_file_change)
+        self._observer.schedule(handler, self._watch_dir, recursive=False)
+        self._observer.start()
+        
+        while self._running:
+            time.sleep(0.1)
+        if self._observer.is_alive():
+            self._observer.stop()
+            self._observer.join()
+
+    def _on_file_change(self, src_path):
+        # emit Qt signal into the main thread
+        if self._is_reloading:
+            return
+        self._is_reloading = True
+        self.file_changed.emit(src_path)
+        QTimer.singleShot(2000, self._reset_reloading_flag)
+
+
+
+    def _reset_reloading_flag(self):
+        self._is_reloading = False
+        print("Reload cooldown finished.")
+
+    def stop(self):
+        self._running = False
+        time.sleep(0.1)
+
+--- D:\Python\save_parser\src\util\__init__.py ---
+
+--- D:\Python\save_parser\src\widgets\path_line.py ---
+from __future__ import annotations
+from PySide6.QtWidgets import QWidget, QLineEdit, QHBoxLayout, QPushButton, QFileDialog, QComboBox
+from PySide6.QtCore import QSettings
+from util.utils import load_save
+from util.path_helper import PathHelper
+from typing import TYPE_CHECKING, Optional
+from parser import invalidate
+import os
+
+if TYPE_CHECKING:
+    from main_window import MainWindow
+
+
+from parser.wrapper import CharacterData
+
+class FileIO(QWidget):
+    def __init__(self, parent: "MainWindow", path_helper: PathHelper):
+        super().__init__(parent)
+        self.initializing = True
+        self.path_helper = path_helper
+        self.main_window = parent
+        self._data = None
+        self._path = None
+        self.current_index = None
+        self.character_map = {}
+        save_file = path_helper.get_path()
+        text = save_file if save_file else ""
+        self.line = QLineEdit(text=str(text), parent=self, readOnly=True)
+        self.button = QPushButton("Choose Save...", parent=self)
+        self.button.clicked.connect(self.open_file)
+
+        self.characters = QComboBox()
+
+        layout = QHBoxLayout()
+        layout.addWidget(self.line)
+        layout.addWidget(self.button)
+        layout.addWidget(self.characters)
+        self.setLayout(layout)
+
+    def open_file(self):
+        default = self.path_helper.get_default_save()
+        if self._path:
+            dir = os.path.dirname(self._path)
+        elif default:
+            dir = os.path.dirname(default)
+        else:
+            dir = os.getcwd()
+        file_path, _ = QFileDialog.getOpenFileName(
+            parent=self,
+            caption="Select a savefile",
+            dir=dir,
+            filter="Elden Ring Savefiles (*.sl2);;Seamless Coop Savefiles (*.co2)"
+        )
+        if file_path:
+            self.load_file(file_path)
+
+    def load_file(self, path="", selection=0, load_new = True, init=False):
+        if not path:
+            path = self.path_helper.get_path()
+        if load_new:
+            self._path = path
+        else:
+            path = self._path
+        if not path:
+            return
+        if init:
+            selection = self.path_helper.get_character_slot()
+        invalidate()
+        headers = load_save(path, 0, True)
+        k = 0
+        selection_list = []
+        self.character_map = {}
+        for i, header in enumerate(headers):
+                if header.name:
+                    self.character_map[k] = i
+                    selection_list.append(f"{header.name} - SL{header.level}")
+                    k += 1
+        if selection_list:
+            self.characters.clear()
+            self.characters.blockSignals(True)
+            self.characters.addItems(selection_list)
+            if self.initializing:
+                self.characters.currentIndexChanged.connect(self.load_character)
+                self.initializing = False
+            if load_new:
+                self.characters.setCurrentIndex(selection)
+                self.characters.blockSignals(False)
+                self.load_character(selection)
+            else:
+                self.characters.setCurrentIndex(self.current_index)
+                self.characters.blockSignals(False)
+
+    def get_path(self):
+        return self._path
+    
+    def load_character(self, index: Optional[int] = None, invalidate_headers: bool = False):
+        if invalidate_headers:
+            invalidate()
+        if index is None:
+            index = self.current_index
+        if index is None:
+            return
+        real_index = self.character_map.get(index)
+        if real_index is None:
+            return
+        self._data: CharacterData = load_save(self._path, index, header_mode=False)
+        if not self._data:
+            return
+        self.current_index = index
+        if self.main_window.watcher and self.main_window.watcher.isRunning():
+            self.main_window.stop_watcher()
+        self.main_window.set_watcher(self._path)
+        self.line.setText(self._path)
+        self.main_window.invalidate_save()
+        self.path_helper.write_to_settings(self._path, index)
+
+    def get_data(self):
+        return self._data
+
+
+
+--- D:\Python\save_parser\src\widgets\tree.py ---
+from __future__ import annotations
+from PySide6.QtWidgets import QTreeView, QVBoxLayout, QWidget, QLineEdit, QCheckBox, QHBoxLayout, QPushButton
+from PySide6.QtGui import QStandardItemModel, QStandardItem
+from PySide6.QtCore import Qt, QSortFilterProxyModel
+from typing import TYPE_CHECKING
+from parser.wrapper import CharacterData
+from data.consts import DLC, OFFSET, REMEMBRANCE, LINK
+from util.utils import make_combo_widget
+
+if TYPE_CHECKING:
+    from main_window import MainWindow
+
+import sqlite3
+
+class TreeWindow(QWidget):
+    def __init__(self, parent: "MainWindow", connection: sqlite3.Connection, data: CharacterData):
+        super().__init__(parent)
+        self.main_window = parent
+        self.connection = connection
+        self.data = data
+        self.has_dlc = data.has_dlc() if self.data else True
+        self.setWindowTitle("Boss Tracker")
+
+        # Create the base model
+        self.base_model = QStandardItemModel()
+
+        # Create the filter proxy model
+        proxy_dlc_flag = None if self.has_dlc else 0
+        self.proxy_model = BossFilterProxyModel(has_dlc=proxy_dlc_flag)
+        self.proxy_model.setSourceModel(self.base_model)
+
+        self.tree = QTreeView()
+        self.tree.setModel(self.proxy_model)
+        self.tree.setUniformRowHeights(True)
+        self.tree.setHeaderHidden(True)
+
+        # Set up the tree view
+        self.top_bar = QWidget()
+
+        self.button_widget = QWidget()
+
+        self.expand_button = QPushButton("Expand all")
+        self.expand_button.pressed.connect(self.tree.expandAll)
+
+        self.collapse_button = QPushButton("Collapse all")
+        self.collapse_button.pressed.connect(self.tree.collapseAll)
+
+        self.left_button_layout = QVBoxLayout()
+        self.left_button_layout.addWidget(self.expand_button)
+        self.left_button_layout.addWidget(self.collapse_button)
+        self.button_widget.setLayout(self.left_button_layout)
+
+        self.search = QLineEdit()
+        self.search.setPlaceholderText("Search...")
+        self.search.textChanged.connect(self.update_search_box)
+
+
+        self.dlc_box = make_combo_widget("DLC", ["Show all", "Don't show", "Only show"], self.proxy_model.set_show_dlc, not self.has_dlc)
+        self.show_box = make_combo_widget("Filter selected", ["Show all", "Show checked", "Show unchecked"], self.proxy_model.set_show_checked_only, 0)
+
+        self.remembrance = QCheckBox
+
+        self.top_layout = QHBoxLayout()
+        self.top_layout.addWidget(self.button_widget)
+        self.top_layout.addWidget(self.search)
+        self.top_layout.addWidget(self.dlc_box)
+        self.top_layout.addWidget(self.show_box)
+        self.top_bar.setLayout(self.top_layout)
+
+        # Layout
+        layout = QVBoxLayout(self)
+        layout.addWidget(self.top_bar)
+        layout.addWidget(self.tree)
+
+        # Populate the model
+        self.populate_model()
+        self.update_all_region_counts()
+
+        # Resize columns
+        self.tree.resizeColumnToContents(0)
+
+    def populate_model(self):
+        root_item = self.base_model.invisibleRootItem()
+        region_items = {}
+
+        query = "SELECT * FROM bosses ORDER BY is_dlc, region, name"
+        cursor = self.connection.cursor()
+        cursor.execute(query)
+        rows = cursor.fetchall()
+
+        load_check = self.main_window.data is not None
+        self.base_model.layoutAboutToBeChanged.emit()
+        for boss_id, boss_name, region, remembrance, dlc, save_bit_offset, link in rows:
+            if region not in region_items:
+                region_item = QStandardItem()
+                region_item.setEditable(False)
+                region_item.setData(region, Qt.UserRole + 1)
+                root_item.appendRow(region_item)
+                region_items[region] = region_item
+
+            parent_item = region_items[region]
+            boss_item = QStandardItem(boss_name)
+            boss_item.setEditable(False)
+            boss_item.setCheckable(False)
+
+            if load_check:
+                check = Qt.Checked if self.main_window.data.get_flag(save_bit_offset) else Qt.Unchecked
+                boss_item.setCheckState(check)
+            else:
+                boss_item.setCheckState(Qt.Unchecked)
+
+            boss_item.setData(remembrance, REMEMBRANCE)
+            boss_item.setData(dlc, DLC)
+            boss_item.setData(save_bit_offset, OFFSET)
+            boss_item.setData(link, LINK)
+
+            parent_item.appendRow(boss_item)
+
+        self.base_model.layoutChanged.emit()
+
+    def update_all_region_counts(self):
+        for i in range(self.base_model.rowCount()):
+            region_item = self.base_model.item(i)
+            self.update_region_count(region_item)
+
+    def update_region_count(self, region_item: QStandardItem):
+        total = region_item.rowCount()
+        checked = sum(1 for i in range(total) if region_item.child(i).checkState() == Qt.Checked)
+        region_name = region_item.data(Qt.UserRole + 1)
+        region_item.setText(f"{region_name} ({checked}/{total})")
+
+    def update(self):
+        if self.main_window.data is None:
+            return
+
+        root_item = self.base_model.invisibleRootItem()
+        self.base_model.layoutAboutToBeChanged.emit()
+
+        for i in range(root_item.rowCount()):
+            region_item = root_item.child(i)
+            for j in range(region_item.rowCount()):
+                boss_item = region_item.child(j)
+                offset = boss_item.data(OFFSET)
+                new_state = Qt.CheckState.Checked if self.main_window.data.get_flag(offset) else Qt.CheckState.Unchecked
+                check_state = boss_item.checkState()
+                if new_state != check_state:
+                    print(f"Updated boss: {boss_item.text()}")
+                    boss_item.setCheckState(new_state)
+
+            self.update_region_count(region_item)
+
+        self.base_model.layoutChanged.emit()
+
+    def update_search_box(self, text):
+        if len(text) > 5:
+            self.tree.expandAll()
+        self.proxy_model.set_search_text(text)
+
+
+class BossFilterProxyModel(QSortFilterProxyModel):
+    def __init__(self, has_dlc):
+        super().__init__()
+        self.show_dlc = has_dlc
+        self.show_checked_only = None
+        self.search_text = ""
+
+    def filterAcceptsRow(self, source_row, source_parent):
+        model = self.sourceModel()
+        index = model.index(source_row, 0, source_parent)
+        item = model.itemFromIndex(index)
+
+        if item.hasChildren():
+            for i in range(item.rowCount()):
+                if self.filterAcceptsRow(i, index):
+                    return True
+            return False
+
+        if self.show_dlc is not None:
+            if self.show_dlc and not item.data(DLC):
+                return False
+            elif not self.show_dlc and item.data(DLC):
+                return False
+
+
+        if self.show_checked_only is not None:
+            if self.show_checked_only and item.checkState() != Qt.Checked:
+                return False
+            elif not self.show_checked_only and item.checkState() == Qt.Checked:
+                return False
+
+        if self.search_text:
+            parent_item = item.parent()
+            text = self.search_text.lower()
+            if parent_item and text in parent_item.text().lower():
+                return True
+            if text not in item.text().lower():
+                return False
+
+        return True
+
+    def set_show_checked_only(self, index: int):
+        match index:
+            case 0:
+                new = None #Show all
+            case 1:
+                new = 1 #Checked
+            case 2:
+                new = 0 #Unchecked
+        if self.show_checked_only != new:
+            self.show_checked_only = new
+            self.invalidateFilter()
+
+    def set_search_text(self, text: str):
+        self.search_text = text
+        self.invalidateFilter()
+
+    def set_show_dlc(self, index: int):
+        match index:
+            case 0:
+                new = None #Show all
+            case 1:
+                new = 0 #Don't show
+            case 2:
+                new = 1 #Only show
+        if self.show_dlc != new:
+            self.show_dlc = new
+            self.invalidateFilter()
+
+--- D:\Python\save_parser\src\widgets\__init__.py ---
+
+--- D:\Python\save_parser\src\app.py ---
+from PySide6.QtWidgets import QApplication
+
+import sys
+import signal
+import traceback
+import sqlite3
+import os
+
+from main_window import MainWindow
+
+class Application(QApplication):
+    def __init__(self):
+        super().__init__(sys.argv)
+        sys.excepthook = self.exception_hook
+        signal.signal(signal.SIGINT, self.handle_signal)
+        signal.signal(signal.SIGTERM, self.handle_signal)
+        self.aboutToQuit.connect(self.on_close)
+        self.setStyle("fusion")
+        self.connection = sqlite3.connect(os.path.join(os.path.dirname(__file__), 'gamedata.db'))
+        self.window = MainWindow(self, self.connection)
+        self.window.show()
+        sys.exit(self.exec())
+
+    def handle_signal(self, sig, frame):
+        print(f"Received signal {sig}, exiting...")
+        self.quit()
+
+    def exception_hook(self, exc_type, exc_value, exc_tb):
+        traceback.print_exception(exc_type, exc_value, exc_tb)
+        try:
+            if hasattr(self, "connection"):
+                self.connection.commit()
+                self.connection.close()
+        except Exception as e:
+            print("Failed to save during exception:", e)
+        sys.exit(1)
+
+    def on_close(self):
+        if hasattr(self, "connection"):
+            self.connection.commit()
+            self.connection.close()
+        if hasattr(self, "window"):
+            if hasattr(self.window, "watcher"):
+                if self.window.watcher.isRunning():
+                    self.window.watcher.stop()
+
+--- D:\Python\save_parser\src\lib_tester.py ---
+import ctypes
+import os
+import time
+
+# --- Configuration ---
+DLL_PATH = "./parser.dll"
+# !!! IMPORTANT: CHANGE THIS TO A VALID SAVE FILE PATH !!!
+SAVE_FILE_PATH = "D:\\Python\\save_parser\\borjom.sl2"
+CHARACTER_SLOT_TO_TEST = 0
+
+def run_smoke_test():
+    """
+    Tests if the C library can be loaded and a function can be called.
+    """
+    print("--- Python C Library Smoke Test ---")
+
+    # 1. Check if the DLL and save file exist before we start
+    if not os.path.exists(DLL_PATH):
+        print(f"Error: Cannot find the DLL. Make sure '{DLL_PATH}' is in the same directory.")
+        return
+
+    if not os.path.exists(SAVE_FILE_PATH):
+        print(f"Error: Cannot find the test save file at '{SAVE_FILE_PATH}'.")
+        print("Please update the SAVE_FILE_PATH variable in this script.")
+        return
+
+    # 2. Load the C library
+    try:
+        parser_lib = ctypes.CDLL(DLL_PATH)
+        print(f"Successfully loaded '{DLL_PATH}'")
+    except OSError as e:
+        print(f"Error loading DLL: {e}")
+        print("This can happen if the DLL is 32-bit and Python is 64-bit (or vice-versa).")
+        return
+
+    # 3. Define the function signature (prototype) for the function we want to call.
+    #    This tells ctypes what kind of arguments the function expects and what it returns.
+    try:
+        update_data = parser_lib.update_character_data
+        update_data.argtypes = [ctypes.c_char_p, ctypes.c_int] # (const char*, int)
+        update_data.restype = ctypes.c_int                    # returns int
+        print("Successfully found 'update_character_data' function.")
+    except AttributeError:
+        print("Error: Could not find the 'update_character_data' function in the DLL.")
+        print("Check if you used the '__declspec(dllexport)' macro correctly in your C code.")
+        return
+
+    # 4. Prepare the arguments
+    #    ctypes can't pass Python strings directly, they must be encoded to bytes.
+    filepath_bytes = SAVE_FILE_PATH.encode('utf-8')
+
+    # 5. Call the C function
+    print(f"\nCalling C function: update_character_data('{SAVE_FILE_PATH}', {CHARACTER_SLOT_TO_TEST})")
+    
+    # This is where the magic happens. Python calls into your compiled C code.
+    start = time.perf_counter()
+    return_code = update_data(filepath_bytes, CHARACTER_SLOT_TO_TEST)
+    end = time.perf_counter()
+
+    start2 = time.perf_counter()
+    return_code = update_data(filepath_bytes, CHARACTER_SLOT_TO_TEST)
+    end2 = time.perf_counter()
+
+    parser_lib.invalidate_headers()
+
+    start3 = time.perf_counter()
+    return_code = update_data(filepath_bytes, CHARACTER_SLOT_TO_TEST)
+    end3 = time.perf_counter()
+
+    # 6. Check the result
+    print(f"\nC function finished and returned code: {return_code}")
+
+    if return_code == 0:
+        print("SUCCESS: The function reported success (returned 0).")
+    elif return_code == -1:
+        print("FAILURE: The function reported an error (file not found).")
+    elif return_code == -2:
+        print("FAILURE: The function reported an error (invalid file size).")
+    elif return_code == -3:
+        print("FAILURE: The function reported an error (memory allocation failed).")
+    else:
+        print(f"FAILURE: The function returned an unknown error code: {return_code}.")
+
+    print(f"Initialize_headers duration: {end - start:.6f} seconds")
+    print(f"Worktime duration: {end2 - start2:.6f} seconds")
+    print(f"Duration after invalidation: {end3 - start3:.6f} seconds")
+
+if __name__ == "__main__":
+    run_smoke_test()
+
+--- D:\Python\save_parser\src\main.py ---
+from app import Application
+
+if __name__ == "__main__":
+    app = Application()
+    
+
+--- D:\Python\save_parser\src\main_window.py ---
+from __future__ import annotations
+from PySide6.QtWidgets import QMainWindow, QWidget, QVBoxLayout, QMenuBar, QTabWidget
+from typing import TYPE_CHECKING
+from functools import partial
+
+from util import utils
+from util.path_helper import PathHelper
+from util import watchdog
+
+from widgets.tree import TreeWindow
+
+from widgets.path_line import FileIO
+
+from sqlite3 import Connection
+
+from parser import *
+
+if TYPE_CHECKING:
+    from app import Application
+
+class MainWindow(QMainWindow):
+    def __init__(self, app: "Application", connection: Connection):
+        super().__init__()
+        self.initializing = True
+        self.app = app
+        self.connection = connection
+
+        self.menu = QMenuBar()
+        self.file_menu = self.menu.addMenu("File")
+        self.load_recent = self.file_menu.addMenu("Load Recent")
+
+
+        self.path_helper = PathHelper(self)
+        coords = utils.get_spawn_coordinates(1920, 1080)
+
+        self.window_title = "Elden Ring Checklist"
+        self.setWindowTitle(self.window_title)
+        self.setGeometry(*coords)
+        self.data = None
+        self.watcher = None
+        
+        main_widget = QWidget()
+        main_layout = QVBoxLayout()
+        main_widget.setLayout(main_layout)
+        self.setCentralWidget(main_widget)
+
+        self.file_io = FileIO(self, self.path_helper)
+
+        self.file_io.load_file(init=True)
+        self.path = self.file_io.get_path()
+        self.data = self.file_io.get_data()
+
+        exit_action = utils.make_action(self, "Exit", self.app.on_close, "Ctrl+Q")
+        invalidate_action = utils.make_action(self, "Reload", lambda: self.file_io.load_file("", load_new = False), "f5")
+        load_from_current_game = utils.make_action(self, "Locate Save", lambda: self.file_io.load_file(self.path_helper.get_default_save()), "f8")
+
+        self.generate_recent()
+        self.file_menu.addAction(invalidate_action)
+        self.file_menu.addAction(load_from_current_game)
+        self.file_menu.addAction(exit_action)
+        self.setMenuBar(self.menu)
+
+        self.tabs = QTabWidget()
+
+        main_layout.addWidget(self.file_io)
+        main_layout.addWidget(self.tabs)
+        self.boss_window = TreeWindow(self, self.connection, self.data)
+        self.tabs.addTab(self.boss_window, "Bosses")
+        self.tabs.addTab(QWidget(), "???")
+
+        self.initializing = False
+
+    def generate_recent(self):
+        self.load_recent.clear()
+        for p in self.path_helper.get_recent_list():
+            
+            action = utils.make_action(self, p, partial(self.file_io.load_file, p, 0))
+            self.load_recent.addAction(action)
+
+    def set_watcher(self, filepath: str):
+        self.watcher = watchdog.FileWatcherThread(filepath)
+        self.watcher.file_changed.connect(self.on_file_changed)
+        self.watcher.start()
+
+    def stop_watcher(self):
+        self.watcher.stop()
+
+
+
+    def on_file_changed(self, path: str):
+        # This slot is called whenever a watched file is modified
+        print("Changed")
+        self.file_io.load_character()
+
+    def invalidate_save(self):
+        if self.initializing:
+            return
+        self.boss_window.update()
+
+
+    
+
+
+
+--- D:\Python\save_parser\src\output.txt ---
+
+--- D:\Python\save_parser\src\tester.py ---
+from parser import *
+
+if __name__ == "__main__":
+    SAVE_FILE_PATH = "D:\\Python\\save_parser\\after.sl2"
+    SAVE_FILE_2 = "D:\\Python\\save_parser\\borjom.sl2"
+    CHARACTER_SLOT_TO_TEST = 0
+
+    result = update_data(SAVE_FILE_PATH, CHARACTER_SLOT_TO_TEST, header_mode=True)
+    headers = get_headers()
+    for header in headers:
+        print(header.name)
+    data = get_data()
+    
+

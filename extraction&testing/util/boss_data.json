@@ -1,0 +1,1451 @@
+[
+  {
+    "byte_offset": "0xd44e",
+    "bit": 7,
+    "name": "Ancient Ruins of Rauh//Romina, Saint of the Bud",
+    "remembrance": true,
+    "is_dlc": true
+  },
+  {
+    "byte_offset": "0xdb24",
+    "bit": 7,
+    "name": "Scadu Altus//Rugalea the Great Red Bear",
+    "remembrance": false,
+    "is_dlc": true
+  },
+  {
+    "byte_offset": "0x11f80",
+    "bit": 7,
+    "name": "Gravesite Plain//Ghostflame Dragon",
+    "remembrance": false,
+    "is_dlc": true
+  },
+  {
+    "byte_offset": "0x1599b",
+    "bit": 7,
+    "name": "Cerulean Coast//Dancer of Ranah",
+    "remembrance": false,
+    "is_dlc": true
+  },
+  {
+    "byte_offset": "0x16071",
+    "bit": 7,
+    "name": "Charo's Hidden Grave//Demi-Human Queen Marigga",
+    "remembrance": false,
+    "is_dlc": true
+  },
+  {
+    "byte_offset": "0x163dc",
+    "bit": 7,
+    "name": "Gravesite Plain//Blackgaol Knight",
+    "remembrance": false,
+    "is_dlc": true
+  },
+  {
+    "byte_offset": "0x17188",
+    "bit": 7,
+    "name": "Scadu Altus//Red Bear",
+    "remembrance": false,
+    "is_dlc": true
+  },
+  {
+    "byte_offset": "0x174f3",
+    "bit": 7,
+    "name": "Ancient Ruins of Rauh//Divine Beast Dancing Lion",
+    "remembrance": false,
+    "is_dlc": true
+  },
+  {
+    "byte_offset": "0x1aba3",
+    "bit": 7,
+    "name": "Charo's Hidden Grave//Death Rite Bird",
+    "remembrance": false,
+    "is_dlc": true
+  },
+  {
+    "byte_offset": "0x1c025",
+    "bit": 7,
+    "name": "Scadu Altus//Black Knight Garrew",
+    "remembrance": false,
+    "is_dlc": true
+  },
+  {
+    "byte_offset": "0x1f6db",
+    "bit": 5,
+    "name": "Cerulean Coast//Ghostflame Dragon",
+    "remembrance": false,
+    "is_dlc": true
+  },
+  {
+    "byte_offset": "0x20b57",
+    "bit": 7,
+    "name": "Gravesite Plain//Rellana, Twin Moon Knight",
+    "remembrance": true,
+    "is_dlc": true
+  },
+  {
+    "byte_offset": "0x24c48",
+    "bit": 7,
+    "name": "Jagged Peak//Jagged Peak Drake",
+    "remembrance": false,
+    "is_dlc": true
+  },
+  {
+    "byte_offset": "0x2531e",
+    "bit": 7,
+    "name": "Scadu Altus//Ghostflame Dragon",
+    "remembrance": false,
+    "is_dlc": true
+  },
+  {
+    "byte_offset": "0x25324",
+    "bit": 5,
+    "name": "Scadu Altus//Black Knight Edredd",
+    "remembrance": false,
+    "is_dlc": true
+  },
+  {
+    "byte_offset": "0x25689",
+    "bit": 7,
+    "name": "Scadu Altus//Dryleaf Dane",
+    "remembrance": false,
+    "is_dlc": true
+  },
+  {
+    "byte_offset": "0x259f4",
+    "bit": 7,
+    "name": "Scadu Altus//Ralva the Great Red Bear",
+    "remembrance": false,
+    "is_dlc": true
+  },
+  {
+    "byte_offset": "0x26435",
+    "bit": 7,
+    "name": "Scaduview//Commander Gaius",
+    "remembrance": true,
+    "is_dlc": true
+  },
+  {
+    "byte_offset": "0x2abfc",
+    "bit": 7,
+    "name": "Scaduview//Tree Sentinel",
+    "remembrance": false,
+    "is_dlc": true
+  },
+  {
+    "byte_offset": "0x2af67",
+    "bit": 7,
+    "name": "Scaduview//Scadutree Avatar",
+    "remembrance": true,
+    "is_dlc": true
+  },
+  {
+    "byte_offset": "0x2af6e",
+    "bit": 3,
+    "name": "Scaduview//Tree Sentinel",
+    "remembrance": false,
+    "is_dlc": true
+  },
+  {
+    "byte_offset": "0x2eced",
+    "bit": 7,
+    "name": "Scadu Altus//Rakshasa",
+    "remembrance": false,
+    "is_dlc": true
+  },
+  {
+    "byte_offset": "0x2f058",
+    "bit": 7,
+    "name": "Scadu Altus//Count Ymir, Mother of Fingers",
+    "remembrance": false,
+    "is_dlc": true
+  },
+  {
+    "byte_offset": "0x32a66",
+    "bit": 3,
+    "name": "Jagged Peak//Jagged Peak Drake",
+    "remembrance": false,
+    "is_dlc": true
+  },
+  {
+    "byte_offset": "0x334b4",
+    "bit": 7,
+    "name": "Abyssal Woods//Jori, Elder Inquisitor",
+    "remembrance": false,
+    "is_dlc": true
+  },
+  {
+    "byte_offset": "0x345cb",
+    "bit": 7,
+    "name": "Scaduview//Fallingstar Beast",
+    "remembrance": false,
+    "is_dlc": true
+  },
+  {
+    "byte_offset": "0x54d53",
+    "bit": 7,
+    "name": "Moonlight Altar//Alecto, Black Knife Ringleader",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x550be",
+    "bit": 7,
+    "name": "Liurnia of the Lakes//Erdtree Avatar",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x55794",
+    "bit": 7,
+    "name": "Liurnia of the Lakes//Bols, Carian Knight",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x5d60b",
+    "bit": 7,
+    "name": "Moonlight Altar//Glintstone Dragon Adula",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x5e04c",
+    "bit": 7,
+    "name": "Liurnia of the Lakes//Glintstone Dragon Smarag",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x5ea8d",
+    "bit": 7,
+    "name": "Liurnia of the Lakes//Royal Revenant",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x65ec3",
+    "bit": 7,
+    "name": "Liurnia of the Lakes//Omenkiller",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x67a1b",
+    "bit": 7,
+    "name": "Liurnia of the Lakes//Royal Knight Loretta",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x6845c",
+    "bit": 7,
+    "name": "Mt. Gelmir//Magma Wyrm",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x6f1bc",
+    "bit": 7,
+    "name": "Liurnia of the Lakes//Death Rite Bird",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x6fbfd",
+    "bit": 7,
+    "name": "Liurnia of the Lakes//Night's Cavalry",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x702d3",
+    "bit": 7,
+    "name": "Liurnia of the Lakes//Onyx Lord",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x7107f",
+    "bit": 7,
+    "name": "Mt. Gelmir//Full-Grown Fallingstar Beast",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x77033",
+    "bit": 7,
+    "name": "Liurnia of the Lakes//Deathbird",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x77ddf",
+    "bit": 7,
+    "name": "Liurnia of the Lakes//Bell Bearing Hunter",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x795cc",
+    "bit": 7,
+    "name": "Mt. Gelmir//Demi-Human Queen Maggie",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x79938",
+    "bit": 5,
+    "name": "Mt. Gelmir//Ulcerated Tree Spirit",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x7f580",
+    "bit": 7,
+    "name": "Liurnia of the Lakes//Adan, Thief of Fire",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x80d6d",
+    "bit": 7,
+    "name": "Liurnia of the Lakes//Erdtree Avatar",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x817ae",
+    "bit": 7,
+    "name": "Altus Plateau//Demi-Human Queen Gilika",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x81b19",
+    "bit": 7,
+    "name": "Altus Plateau//Tibia Mariner",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x8850e",
+    "bit": 7,
+    "name": "Liurnia of the Lakes//Night's Cavalry",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x88879",
+    "bit": 7,
+    "name": "Liurnia of the Lakes//Tibia Mariner",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x89cfb",
+    "bit": 7,
+    "name": "Altus Plateau//Godefroy the Grafted",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x8a066",
+    "bit": 7,
+    "name": "Altus Plateau//Night's Cavalry",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x8aaa7",
+    "bit": 7,
+    "name": "Altus Plateau//Elemer of the Briar",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x92c89",
+    "bit": 7,
+    "name": "Altus Plateau//Black Knife Assassin",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x92ff4",
+    "bit": 7,
+    "name": "Altus Plateau//Sanguine Noble",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x9ae6b",
+    "bit": 7,
+    "name": "Altus Plateau//Fallingstar Beast",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x9b1d6",
+    "bit": 7,
+    "name": "Altus Plateau//Tree Sentinel(x2)",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x9b541",
+    "bit": 7,
+    "name": "Altus Plateau//Ancient Dragon Lansseax",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x9b8ac",
+    "bit": 7,
+    "name": "Altus Plateau//Wormface",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x9fd08",
+    "bit": 7,
+    "name": "Weeping Peninsula//Ancient Hero of Zamor",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0xa0749",
+    "bit": 7,
+    "name": "Limgrave//Tree Sentinel",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0xa0ab4",
+    "bit": 7,
+    "name": "Limgrave//Crucible Knight",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0xa0e1f",
+    "bit": 7,
+    "name": "Limgrave//Deathbird",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0xa0e25",
+    "bit": 5,
+    "name": "Limgrave//Bell Bearing Hunter",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0xa483a",
+    "bit": 7,
+    "name": "Altus Plateau//Godskin Apostle",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0xa7b7f",
+    "bit": 7,
+    "name": "Weeping Peninsula//Leonine Misbegotten",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0xa85c0",
+    "bit": 7,
+    "name": "Weeping Peninsula//Erdtree Avatar",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0xa9001",
+    "bit": 7,
+    "name": "Limgrave//Flying Dragon Agheel",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0xa936c",
+    "bit": 7,
+    "name": "Limgrave//Night's Cavalry",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0xaca1c",
+    "bit": 7,
+    "name": "Capital Outskirts//Bell Bearing Hunter",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0xb0b0d",
+    "bit": 7,
+    "name": "Weeping Peninsula//Deathbird",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0xb0b13",
+    "bit": 5,
+    "name": "Weeping Peninsula//Night's Cavalry",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0xb154e",
+    "bit": 7,
+    "name": "Limgrave//Bloodhound Knight Darriwil",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0xb18b9",
+    "bit": 7,
+    "name": "Limgrave//Mad Pumpkin Head",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0xb52d4",
+    "bit": 7,
+    "name": "Capital Outskirts//Deathbird",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0xbabb2",
+    "bit": 7,
+    "name": "Limgrave//Tibia Mariner",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0xbd821",
+    "bit": 7,
+    "name": "Capital Outskirts//Draconic Tree Sentinel",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0xc0490",
+    "bit": 7,
+    "name": "Jagged Peak//Bayle the Dread",
+    "remembrance": false,
+    "is_dlc": true
+  },
+  {
+    "byte_offset": "0xc0496",
+    "bit": 5,
+    "name": "Jagged Peak//Ancient Dragon Senessax",
+    "remembrance": false,
+    "is_dlc": true
+  },
+  {
+    "byte_offset": "0xcc08d",
+    "bit": 7,
+    "name": "Caelid//Putrid Avatar",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0xd3f04",
+    "bit": 7,
+    "name": "Caelid//Decaying Ekzykes",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0xd4945",
+    "bit": 7,
+    "name": "Caelid//Mad Pumpkin Head (Hammer) & Mad Pumpkin Head (Flail)",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0xd4cb0",
+    "bit": 7,
+    "name": "Greyoll's Dragonbarrow//Bell Bearing Hunter",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0xd6ede",
+    "bit": 7,
+    "name": "Forbidden Lands//Night's Cavalry",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0xd8360",
+    "bit": 7,
+    "name": "Consecrated Snowfield//Death Rite Bird",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0xdc7bc",
+    "bit": 7,
+    "name": "Caelid//Night's Cavalry",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0xdc7c2",
+    "bit": 5,
+    "name": "Caelid//Death Rite Bird",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0xdcb27",
+    "bit": 7,
+    "name": "Caelid//Commander O'Neil",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0xdce92",
+    "bit": 7,
+    "name": "Caelid//Nox Monk & Nox Swordstress",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0xdce98",
+    "bit": 5,
+    "name": "Greyoll's Dragonbarrow//Battlemage Hugues",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0xdfb01",
+    "bit": 7,
+    "name": "Forbidden Lands//Black Blade Kindred",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0xe9165",
+    "bit": 7,
+    "name": "Consecrated Snowfield//Great Wyrm Theodorix",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0xe94d0",
+    "bit": 7,
+    "name": "Mountaintops of the Giants//Death Rite Bird",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0xe94d6",
+    "bit": 5,
+    "name": "Consecrated Snowfield//Putrid Avatar",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0xed5c1",
+    "bit": 7,
+    "name": "Caelid//Crucible Knight & Misbegotten Warrior",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0xee36d",
+    "bit": 7,
+    "name": "Greyoll's Dragonbarrow//Putrid Avatar",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0xeedae",
+    "bit": 7,
+    "name": "Greyoll's Dragonbarrow//Black Blade Kindred",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0xf1d88",
+    "bit": 7,
+    "name": "Mountaintops of the Giants//Commander Niall",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0xf6f90",
+    "bit": 7,
+    "name": "Greyoll's Dragonbarrow//Flying Dragon Greyll",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0xf6f96",
+    "bit": 5,
+    "name": "Greyoll's Dragonbarrow//Night's Cavalry",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0xfa2d5",
+    "bit": 7,
+    "name": "Mountaintops of the Giants//Erdtree Avatar",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x102b8d",
+    "bit": 7,
+    "name": "Mountaintops of the Giants//Roundtable Knight Vyke",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x151c33",
+    "bit": 7,
+    "name": "Stormveil Castle//Godrick the Grafted",
+    "remembrance": true,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x151c39",
+    "bit": 5,
+    "name": "Stormveil Castle//Margit, the Fell Omen",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x152098",
+    "bit": 7,
+    "name": "Liurnia of the Lakes//Grafted Scion",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x152dc7",
+    "bit": 7,
+    "name": "Leyndell, Royal Capital//Morgott, the Omen King",
+    "remembrance": true,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x152dcd",
+    "bit": 5,
+    "name": "Leyndell, Royal Capital//Godfrey, First Elden Lord",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x15322c",
+    "bit": 7,
+    "name": "Leyndell, Ashen Capital//Godfrey, First Elden Lord & Hoarah Loux, Warrior",
+    "remembrance": true,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x153232",
+    "bit": 5,
+    "name": "Leyndell, Ashen Capital//Sir Gideon Ofnir, the All-Knowing",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x154c8a",
+    "bit": 7,
+    "name": "Ainsel River//Dragonkin Soldier of Nokstella",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x154c90",
+    "bit": 5,
+    "name": "Ainsel River//Dragonkin Soldier",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x1550ef",
+    "bit": 7,
+    "name": "Siofra River//Valiant Gargoyle & Valiant Gargoyle (Twinblade)",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x1550f2",
+    "bit": 1,
+    "name": "Siofra River//Dragonkin Soldier",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x1550f5",
+    "bit": 5,
+    "name": "Siofra River//Mimic Tear",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x155520",
+    "bit": 1,
+    "name": "Deeproot Depths//Crucible Knight Siluria",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x155554",
+    "bit": 7,
+    "name": "Deeproot Depths//Fia's Champion & Sorcerer Rogier & Lionel the Lionhearted",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x15555a",
+    "bit": 5,
+    "name": "Deeproot Depths//Lichdragon Fortissax",
+    "remembrance": true,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x1559b9",
+    "bit": 7,
+    "name": "Ainsel River//Astel, Naturalborn of the Void",
+    "remembrance": true,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x155e1e",
+    "bit": 7,
+    "name": "Mohgwyn Dynasty Mausoleum//Mohg, Lord of Blood",
+    "remembrance": true,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x156b4d",
+    "bit": 7,
+    "name": "Siofra River//Ancestor Spirit",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x156fb2",
+    "bit": 7,
+    "name": "Siofra River//Regal Ancestor Spirit",
+    "remembrance": true,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x157417",
+    "bit": 7,
+    "name": "Crumbling Farum Azula//Maliketh, the Black Blade",
+    "remembrance": true,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x15741a",
+    "bit": 1,
+    "name": "Crumbling Farum Azula//Dragonlord Placidusax",
+    "remembrance": true,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x15741d",
+    "bit": 5,
+    "name": "Crumbling Farum Azula//Godskin Duo",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x158146",
+    "bit": 7,
+    "name": "Academy of Raya Lucaria//Rennala, Queen of the Full Moon",
+    "remembrance": true,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x15814c",
+    "bit": 5,
+    "name": "Academy of Raya Lucaria//Red Wolf of Radagon",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x158e75",
+    "bit": 7,
+    "name": "Miquella's Haligtree//Malenia, Blade of Miquella & Malenia, Goddess of Rot",
+    "remembrance": true,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x158e7b",
+    "bit": 5,
+    "name": "Miquella's Haligtree//Loretta, Knight of the Haligtree",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x159ba4",
+    "bit": 7,
+    "name": "Volcano Manor//God-Devouring Serpent & Rykard, Lord of Blasphemy",
+    "remembrance": true,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x159baa",
+    "bit": 5,
+    "name": "Volcano Manor//Godskin Noble",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x159bab",
+    "bit": 3,
+    "name": "Volcano Manor//Abductor Virgin (Swinging Sickle) & Abductor Virgin (Wheel)",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x15b602",
+    "bit": 7,
+    "name": "Limgrave//Ulcerated Tree Spirit",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x15b608",
+    "bit": 5,
+    "name": "Limgrave//Soldier of Godrick",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x15c331",
+    "bit": 7,
+    "name": "Leyndell, Ashen Capital//Radagon of the Golden Order & Elden Beast",
+    "remembrance": true,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x15d060",
+    "bit": 7,
+    "name": "Leyndell, Royal Capital//Mohg, the Omen",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x15d066",
+    "bit": 5,
+    "name": "Leyndell, Royal Capital//Esgar, Priest of Blood",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x15dd8f",
+    "bit": 7,
+    "name": "Liurnia of the Lakes//Magma Wyrm Makar",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x162ca9",
+    "bit": 7,
+    "name": "Capital Outskirts//Onyx Lord",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x16310e",
+    "bit": 7,
+    "name": "Greyoll's Dragonbarrow//Godskin Apostle",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x163579",
+    "bit": 5,
+    "name": "Leyndell, Royal Capital//Fell Twin(x2)",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x164fd1",
+    "bit": 7,
+    "name": "Scadu Altus//Death Knight",
+    "remembrance": false,
+    "is_dlc": true
+  },
+  {
+    "byte_offset": "0x167bc3",
+    "bit": 7,
+    "name": "Weeping Peninsula//Cemetery Shade",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x168028",
+    "bit": 7,
+    "name": "Weeping Peninsula//Erdtree Burial Watchdog",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x16848d",
+    "bit": 7,
+    "name": "Limgrave//Erdtree Burial Watchdog",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x1688f2",
+    "bit": 7,
+    "name": "Liurnia of the Lakes//Spiritcaller Snail",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x168d57",
+    "bit": 7,
+    "name": "Limgrave//Grave Warden Duelist",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x1691bc",
+    "bit": 7,
+    "name": "Liurnia of the Lakes//Cemetery Shade",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x1691c2",
+    "bit": 5,
+    "name": "Liurnia of the Lakes//Black Knife Assassin",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x169621",
+    "bit": 7,
+    "name": "Liurnia of the Lakes//Erdtree Burial Watchdog",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x169a86",
+    "bit": 7,
+    "name": "Altus Plateau//Erdtree Burial Watchdog",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x169eeb",
+    "bit": 7,
+    "name": "Altus Plateau//Ancient Hero of Zamor",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x16a350",
+    "bit": 7,
+    "name": "Mt. Gelmir//Red Wolf of the Champion",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x16a7b5",
+    "bit": 7,
+    "name": "Capital Outskirts//Crucible Knight & Crucible Knight Ordovis",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x16ac1a",
+    "bit": 7,
+    "name": "Limgrave//Black Knife Assassin",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x16b07f",
+    "bit": 7,
+    "name": "Altus Plateau//Perfumer Tricia & Misbegotten Warrior",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x16b4e4",
+    "bit": 7,
+    "name": "Capital Outskirts//Grave Warden Duelist",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x16b949",
+    "bit": 7,
+    "name": "Caelid//Erdtree Burial Watchdog (Sword) & Erdtree Burial Watchdog (Scepter)",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x16bdae",
+    "bit": 7,
+    "name": "Caelid//Cemetery Shade",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x16c213",
+    "bit": 7,
+    "name": "Greyoll's Dragonbarrow//Putrid Tree Spirit",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x16c678",
+    "bit": 7,
+    "name": "Mountaintops of the Giants//Ancient Hero of Zamor",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x16cadd",
+    "bit": 7,
+    "name": "Mountaintops of the Giants//Ulcerated Tree Spirit",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x16cf42",
+    "bit": 7,
+    "name": "Consecrated Snowfield//Putrid Grave Warden Duelist",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x16d3a7",
+    "bit": 7,
+    "name": "Consecrated Snowfield//Stray Mimic Tear",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x16ff99",
+    "bit": 7,
+    "name": "Limgrave//Patches",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x1703fe",
+    "bit": 7,
+    "name": "Weeping Peninsula//Runebear",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x170863",
+    "bit": 7,
+    "name": "Weeping Peninsula//Miranda the Blighted Bloom",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x170cc8",
+    "bit": 7,
+    "name": "Limgrave//Beastman of Farum Azula",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x17112d",
+    "bit": 7,
+    "name": "Liurnia of the Lakes//Cleanrot Knight",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x171592",
+    "bit": 7,
+    "name": "Liurnia of the Lakes//Bloodhound Knight",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x1719f7",
+    "bit": 7,
+    "name": "Liurnia of the Lakes//Crystalian (Staff) & Crystalian (Spear)",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x171e5c",
+    "bit": 7,
+    "name": "Mt. Gelmir//Kindred of Rot(x2)",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x172726",
+    "bit": 7,
+    "name": "Mt. Gelmir//Demi-Human Queen Margot",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x172b8b",
+    "bit": 7,
+    "name": "Greyoll's Dragonbarrow//Beastman of Farum Azula (Cleaver) & Beastman of Farum Azula (Throwing Knife)",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x172ff0",
+    "bit": 7,
+    "name": "Caelid//Putrid Crystalian (Ringblade) & Putrid Crystalian (Spear) & Putrid Crystalian (Staff)",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x173455",
+    "bit": 7,
+    "name": "Consecrated Snowfield//Misbegotten Crusader",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x174184",
+    "bit": 7,
+    "name": "Limgrave//Demi-Human Chief(x2)",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x1745e9",
+    "bit": 7,
+    "name": "Limgrave//Guardian Golem",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x174a4e",
+    "bit": 7,
+    "name": "Altus Plateau//Omenkiller & Miranda the Blighted Bloom",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x174eb3",
+    "bit": 7,
+    "name": "Altus Plateau//Black Knife Assassin",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x174eb9",
+    "bit": 5,
+    "name": "Altus Plateau//Necromancer Garris",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x175318",
+    "bit": 7,
+    "name": "Greyoll's Dragonbarrow//Cleanrot Knight (Spear) & Cleanrot Knight (Sickle)",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x17577d",
+    "bit": 7,
+    "name": "Caelid//Frenzied Duelist",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x175be2",
+    "bit": 7,
+    "name": "Mountaintops of the Giants//Godskin Apostle & Godskin Noble & Spiritcaller Snail",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x17836f",
+    "bit": 7,
+    "name": "Weeping Peninsula//Scaly Misbegotten",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x1787d4",
+    "bit": 7,
+    "name": "Limgrave//Stonedigger Troll",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x178c39",
+    "bit": 7,
+    "name": "Liurnia of the Lakes//Crystalian (Ringblade)",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x17909e",
+    "bit": 7,
+    "name": "Altus Plateau//Stonedigger Troll",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x179968",
+    "bit": 7,
+    "name": "Altus Plateau//Crystalian (Spear) & Crystalian (Ringblade)",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x179dcd",
+    "bit": 7,
+    "name": "Caelid//Magma Wyrm",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x17a232",
+    "bit": 7,
+    "name": "Caelid//Fallingstar Beast",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x17a697",
+    "bit": 7,
+    "name": "Consecrated Snowfield//Astel, Stars of Darkness",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x17af61",
+    "bit": 7,
+    "name": "Gravesite Plain//Divine Beast Dancing Lion",
+    "remembrance": true,
+    "is_dlc": true
+  },
+  {
+    "byte_offset": "0x17b3c6",
+    "bit": 7,
+    "name": "Enir-Ilim//Promised Consort Radahn & Radahn, Consort of Miquella",
+    "remembrance": true,
+    "is_dlc": true
+  },
+  {
+    "byte_offset": "0x17c0fb",
+    "bit": 5,
+    "name": "Scadu Altus//Golden Hippopotamus",
+    "remembrance": false,
+    "is_dlc": true
+  },
+  {
+    "byte_offset": "0x17c55a",
+    "bit": 7,
+    "name": "Scadu Altus//Messmer the Impaler & Base Serpent Messmer",
+    "remembrance": true,
+    "is_dlc": true
+  },
+  {
+    "byte_offset": "0x17d289",
+    "bit": 7,
+    "name": "Cerulean Coast//Putrescent Knight",
+    "remembrance": true,
+    "is_dlc": true
+  },
+  {
+    "byte_offset": "0x17db53",
+    "bit": 7,
+    "name": "Scadu Altus//Metyr, Mother of Fingers",
+    "remembrance": true,
+    "is_dlc": true
+  },
+  {
+    "byte_offset": "0x17f5b1",
+    "bit": 7,
+    "name": "Abyssal Woods//Midra, Lord of Frenzied Flame",
+    "remembrance": true,
+    "is_dlc": true
+  },
+  {
+    "byte_offset": "0x180baa",
+    "bit": 7,
+    "name": "Scadu Altus//Death Knight",
+    "remembrance": false,
+    "is_dlc": true
+  },
+  {
+    "byte_offset": "0x181d3e",
+    "bit": 7,
+    "name": "Gravesite Plain//Demi-Human Swordmaster Onze",
+    "remembrance": false,
+    "is_dlc": true
+  },
+  {
+    "byte_offset": "0x1821a3",
+    "bit": 7,
+    "name": "Scadu Altus//Curseblade Labirith",
+    "remembrance": false,
+    "is_dlc": true
+  },
+  {
+    "byte_offset": "0x182608",
+    "bit": 7,
+    "name": "Gravesite Plain//Lamenter",
+    "remembrance": false,
+    "is_dlc": true
+  },
+  {
+    "byte_offset": "0x184930",
+    "bit": 7,
+    "name": "Gravesite Plain//Chief Bloodfiend",
+    "remembrance": false,
+    "is_dlc": true
+  },
+  {
+    "byte_offset": "0x184d95",
+    "bit": 7,
+    "name": "Jagged Peak//Ancient Dragon-Man",
+    "remembrance": false,
+    "is_dlc": true
+  },
+  {
+    "byte_offset": "0x1a1b02",
+    "bit": 7,
+    "name": "Caelid//Starscourge Radahn",
+    "remembrance": true,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x1aa7a2",
+    "bit": 7,
+    "name": "Mountaintops of the Giants//Borealis the Freezing Fog",
+    "remembrance": false,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x1aac07",
+    "bit": 7,
+    "name": "Mountaintops of the Giants//Fire Giant",
+    "remembrance": true,
+    "is_dlc": false
+  },
+  {
+    "byte_offset": "0x1abd9b",
+    "bit": 7,
+    "name": "Consecrated Snowfield//Night's Cavalry (Glaive) & Night's Cavalry (Flail)",
+    "remembrance": false,
+    "is_dlc": false
+  }
+]

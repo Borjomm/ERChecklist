@@ -1,0 +1,2516 @@
+[
+  {
+    "byte_offset": "0xA58",
+    "bit_index": 1,
+    "id": "71190",
+    "name": "Table of Lost Grace / Roundtable Hold"
+  },
+  {
+    "byte_offset": "0xCBE",
+    "bit_index": 2,
+    "id": "76101",
+    "name": "Limgrave - Limgrave - The First Step"
+  },
+  {
+    "byte_offset": "0xCBE",
+    "bit_index": 3,
+    "id": "76100",
+    "name": "Limgrave - Limgrave - Church of Elleh"
+  },
+  {
+    "byte_offset": "0xCBF",
+    "bit_index": 0,
+    "id": "76111",
+    "name": "Limgrave - Limgrave - Gatefront"
+  },
+  {
+    "byte_offset": "0xCC1",
+    "bit_index": 7,
+    "id": "76120",
+    "name": "Limgrave - Limgrave - Waypoint Ruins Cellar"
+  },
+  {
+    "byte_offset": "0xCBE",
+    "bit_index": 0,
+    "id": "76103",
+    "name": "Limgrave - Limgrave - Artist's Shack (Limgrave)"
+  },
+  {
+    "byte_offset": "0xCBF",
+    "bit_index": 7,
+    "id": "76104",
+    "name": "Limgrave - Limgrave - Third Church of Marika"
+  },
+  {
+    "byte_offset": "0xCBF",
+    "bit_index": 6,
+    "id": "76105",
+    "name": "Limgrave - Limgrave - Fort Haight West"
+  },
+  {
+    "byte_offset": "0xCBF",
+    "bit_index": 5,
+    "id": "76106",
+    "name": "Limgrave - Limgrave - Agheel Lake South"
+  },
+  {
+    "byte_offset": "0xCBF",
+    "bit_index": 3,
+    "id": "76108",
+    "name": "Limgrave - Limgrave - Agheel Lake North"
+  },
+  {
+    "byte_offset": "0xCBF",
+    "bit_index": 1,
+    "id": "76110",
+    "name": "Limgrave - Limgrave - Church of Dragon Communion"
+  },
+  {
+    "byte_offset": "0xCC0",
+    "bit_index": 6,
+    "id": "76113",
+    "name": "Limgrave - Limgrave - Seaside Ruins"
+  },
+  {
+    "byte_offset": "0xCC0",
+    "bit_index": 5,
+    "id": "76114",
+    "name": "Limgrave - Limgrave - Mistwood Outskirts"
+  },
+  {
+    "byte_offset": "0xCC0",
+    "bit_index": 3,
+    "id": "76116",
+    "name": "Limgrave - Limgrave - Murkwater Coast"
+  },
+  {
+    "byte_offset": "0xCC0",
+    "bit_index": 0,
+    "id": "76119",
+    "name": "Limgrave - Limgrave - Summonwater Village Outskirts"
+  },
+  {
+    "byte_offset": "0xB3B",
+    "bit_index": 5,
+    "id": "73002",
+    "name": "Limgrave - Limgrave - Stormfoot Catacombs"
+  },
+  {
+    "byte_offset": "0xB3B",
+    "bit_index": 3,
+    "id": "73004",
+    "name": "Limgrave - Limgrave - Murkwater Catacombs"
+  },
+  {
+    "byte_offset": "0xB47",
+    "bit_index": 0,
+    "id": "73103",
+    "name": "Limgrave - Limgrave - Groveside Cave"
+  },
+  {
+    "byte_offset": "0xB49",
+    "bit_index": 4,
+    "id": "73115",
+    "name": "Limgrave - Limgrave - Coastal Cave"
+  },
+  {
+    "byte_offset": "0xB47",
+    "bit_index": 3,
+    "id": "73100",
+    "name": "Limgrave - Limgrave - Murkwater Cave"
+  },
+  {
+    "byte_offset": "0xB49",
+    "bit_index": 2,
+    "id": "73117",
+    "name": "Limgrave - Limgrave - Highroad Cave"
+  },
+  {
+    "byte_offset": "0xB54",
+    "bit_index": 6,
+    "id": "73201",
+    "name": "Limgrave - Limgrave - Limgrave Tunnels"
+  },
+  {
+    "byte_offset": "0xAA5",
+    "bit_index": 7,
+    "id": "71800",
+    "name": "Limgrave - Stranded Graveyard - Cave of Knowledge"
+  },
+  {
+    "byte_offset": "0xAA5",
+    "bit_index": 6,
+    "id": "71801",
+    "name": "Limgrave - Stranded Graveyard - Stranded Graveyard"
+  },
+  {
+    "byte_offset": "0xCBE",
+    "bit_index": 1,
+    "id": "76102",
+    "name": "Limgrave - Stormhill - Stormhill Shack"
+  },
+  {
+    "byte_offset": "0xA41",
+    "bit_index": 5,
+    "id": "71002",
+    "name": "Limgrave - Stormhill - Castleward Tunnel"
+  },
+  {
+    "byte_offset": "0xA41",
+    "bit_index": 6,
+    "id": "71001",
+    "name": "Limgrave - Stormhill - Margit, the Fell Omen"
+  },
+  {
+    "byte_offset": "0xCC0",
+    "bit_index": 1,
+    "id": "76118",
+    "name": "Limgrave - Stormhill - Warmaster's Shack"
+  },
+  {
+    "byte_offset": "0xCC0",
+    "bit_index": 2,
+    "id": "76117",
+    "name": "Limgrave - Stormhill - Saintsbridge"
+  },
+  {
+    "byte_offset": "0xB3C",
+    "bit_index": 4,
+    "id": "73011",
+    "name": "Limgrave - Stormhill - Deathtouched Catacombs"
+  },
+  {
+    "byte_offset": "0xB6E",
+    "bit_index": 5,
+    "id": "73410",
+    "name": "Limgrave - Stormhill - Limgrave Tower Bridge"
+  },
+  {
+    "byte_offset": "0xB6E",
+    "bit_index": 3,
+    "id": "73412",
+    "name": "Limgrave - Stormhill - Divine Tower of Limgrave"
+  },
+  {
+    "byte_offset": "0xCC4",
+    "bit_index": 1,
+    "id": "76150",
+    "name": "Limgrave - Weeping Peninsula - Church of Pilgrimage"
+  },
+  {
+    "byte_offset": "0xCC4",
+    "bit_index": 0,
+    "id": "76151",
+    "name": "Limgrave - Weeping Peninsula - Castle Morne Rampart"
+  },
+  {
+    "byte_offset": "0xCC5",
+    "bit_index": 7,
+    "id": "76152",
+    "name": "Limgrave - Weeping Peninsula - Tombsward"
+  },
+  {
+    "byte_offset": "0xCC5",
+    "bit_index": 6,
+    "id": "76153",
+    "name": "Limgrave - Weeping Peninsula - South of the Lookout Tower"
+  },
+  {
+    "byte_offset": "0xCC5",
+    "bit_index": 5,
+    "id": "76154",
+    "name": "Limgrave - Weeping Peninsula - Ailing Village Outskirts"
+  },
+  {
+    "byte_offset": "0xCC5",
+    "bit_index": 4,
+    "id": "76155",
+    "name": "Limgrave - Weeping Peninsula - Beside the Crater-Pocked Glade"
+  },
+  {
+    "byte_offset": "0xCC5",
+    "bit_index": 3,
+    "id": "76156",
+    "name": "Limgrave - Weeping Peninsula - Isolated Merchant's Shack (Limgrave)"
+  },
+  {
+    "byte_offset": "0xCC6",
+    "bit_index": 5,
+    "id": "76162",
+    "name": "Limgrave - Weeping Peninsula - Fourth Church of Marika"
+  },
+  {
+    "byte_offset": "0xCC5",
+    "bit_index": 2,
+    "id": "76157",
+    "name": "Limgrave - Weeping Peninsula - Bridge of Sacrifice"
+  },
+  {
+    "byte_offset": "0xCC5",
+    "bit_index": 1,
+    "id": "76158",
+    "name": "Limgrave - Weeping Peninsula - Castle Morne Lift"
+  },
+  {
+    "byte_offset": "0xCC5",
+    "bit_index": 0,
+    "id": "76159",
+    "name": "Limgrave - Weeping Peninsula - Behind The Castle"
+  },
+  {
+    "byte_offset": "0xCC6",
+    "bit_index": 7,
+    "id": "76160",
+    "name": "Limgrave - Weeping Peninsula - Beside the Rampart Gaol"
+  },
+  {
+    "byte_offset": "0xCC6",
+    "bit_index": 6,
+    "id": "76161",
+    "name": "Limgrave - Weeping Peninsula - Morne Moangrave"
+  },
+  {
+    "byte_offset": "0xB3B",
+    "bit_index": 6,
+    "id": "73001",
+    "name": "Limgrave - Weeping Peninsula - Impaler's Catacombs"
+  },
+  {
+    "byte_offset": "0xB3B",
+    "bit_index": 7,
+    "id": "73000",
+    "name": "Limgrave - Weeping Peninsula - Tombsward Catacombs"
+  },
+  {
+    "byte_offset": "0xB47",
+    "bit_index": 2,
+    "id": "73101",
+    "name": "Limgrave - Weeping Peninsula - Earthbore Cave"
+  },
+  {
+    "byte_offset": "0xB47",
+    "bit_index": 1,
+    "id": "73102",
+    "name": "Limgrave - Weeping Peninsula - Tombsward Cave"
+  },
+  {
+    "byte_offset": "0xB54",
+    "bit_index": 7,
+    "id": "73200",
+    "name": "Limgrave - Weeping Peninsula - Morne Tunnel"
+  },
+  {
+    "byte_offset": "0xA42",
+    "bit_index": 7,
+    "id": "71008",
+    "name": "Stormveil Castle - Stormveil Main Gate"
+  },
+  {
+    "byte_offset": "0xA41",
+    "bit_index": 4,
+    "id": "71003",
+    "name": "Stormveil Castle - Gateside Chamber"
+  },
+  {
+    "byte_offset": "0xA41",
+    "bit_index": 3,
+    "id": "71004",
+    "name": "Stormveil Castle - Stormveil Cliffside"
+  },
+  {
+    "byte_offset": "0xA41",
+    "bit_index": 2,
+    "id": "71005",
+    "name": "Stormveil Castle - Rampart Tower"
+  },
+  {
+    "byte_offset": "0xA41",
+    "bit_index": 1,
+    "id": "71006",
+    "name": "Stormveil Castle - Liftside Chamber"
+  },
+  {
+    "byte_offset": "0xA41",
+    "bit_index": 0,
+    "id": "71007",
+    "name": "Stormveil Castle - Secluded Cell"
+  },
+  {
+    "byte_offset": "0xA41",
+    "bit_index": 7,
+    "id": "71000",
+    "name": "Stormveil Castle - Godrick the Grafted"
+  },
+  {
+    "byte_offset": "0xCCB",
+    "bit_index": 7,
+    "id": "76200",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - Lake-Facing Cliffs"
+  },
+  {
+    "byte_offset": "0xCCB",
+    "bit_index": 5,
+    "id": "76202",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - Laskyar Ruins"
+  },
+  {
+    "byte_offset": "0xCCB",
+    "bit_index": 6,
+    "id": "76201",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - Liurnia Lake Shore"
+  },
+  {
+    "byte_offset": "0xCCB",
+    "bit_index": 3,
+    "id": "76204",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - Academy Gate Town"
+  },
+  {
+    "byte_offset": "0xCCD",
+    "bit_index": 6,
+    "id": "76217",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - Artist's Shack (Liurnia of the Lakes)"
+  },
+  {
+    "byte_offset": "0xCCD",
+    "bit_index": 0,
+    "id": "76223",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - Eastern Liurnia Lake Shore"
+  },
+  {
+    "byte_offset": "0xCCD",
+    "bit_index": 1,
+    "id": "76222",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - Gate Town Bridge"
+  },
+  {
+    "byte_offset": "0xCCD",
+    "bit_index": 2,
+    "id": "76221",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - Liurnia Highway North"
+  },
+  {
+    "byte_offset": "0xCD0",
+    "bit_index": 3,
+    "id": "76244",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - Liurnia Highway South"
+  },
+  {
+    "byte_offset": "0xCCB",
+    "bit_index": 1,
+    "id": "76206",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - Main Academy Gate"
+  },
+  {
+    "byte_offset": "0xCCB",
+    "bit_index": 4,
+    "id": "76203",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - Scenic Isle"
+  },
+  {
+    "byte_offset": "0xCCB",
+    "bit_index": 2,
+    "id": "76205",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - South Raya Lucaria Gate"
+  },
+  {
+    "byte_offset": "0xCCE",
+    "bit_index": 6,
+    "id": "76225",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - Ruined Labyrinth"
+  },
+  {
+    "byte_offset": "0xCCD",
+    "bit_index": 7,
+    "id": "76216",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - Boilprawn Shack"
+  },
+  {
+    "byte_offset": "0xCCE",
+    "bit_index": 7,
+    "id": "76224",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - Church of Vows"
+  },
+  {
+    "byte_offset": "0xCCF",
+    "bit_index": 2,
+    "id": "76237",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - Converted Tower"
+  },
+  {
+    "byte_offset": "0xCCF",
+    "bit_index": 5,
+    "id": "76234",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - Eastern Tableland"
+  },
+  {
+    "byte_offset": "0xCCF",
+    "bit_index": 3,
+    "id": "76236",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - Fallen Ruins of the Lake"
+  },
+  {
+    "byte_offset": "0xCCD",
+    "bit_index": 4,
+    "id": "76219",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - Folly on the Lake"
+  },
+  {
+    "byte_offset": "0xCD0",
+    "bit_index": 2,
+    "id": "76245",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - Jarburg"
+  },
+  {
+    "byte_offset": "0xCCE",
+    "bit_index": 5,
+    "id": "76226",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - Mausoleum Compound"
+  },
+  {
+    "byte_offset": "0xCD0",
+    "bit_index": 0,
+    "id": "76247",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - Ranni's Chamber"
+  },
+  {
+    "byte_offset": "0xCCD",
+    "bit_index": 5,
+    "id": "76218",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - Revenger's Shack"
+  },
+  {
+    "byte_offset": "0xCCC",
+    "bit_index": 0,
+    "id": "76215",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - Slumbering Wolf's Shack"
+  },
+  {
+    "byte_offset": "0xCCD",
+    "bit_index": 3,
+    "id": "76220",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - Village of the Albinaurics"
+  },
+  {
+    "byte_offset": "0xCD0",
+    "bit_index": 4,
+    "id": "76243",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - Crystalline Woods"
+  },
+  {
+    "byte_offset": "0xCD0",
+    "bit_index": 5,
+    "id": "76242",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - East Gate Bridge Trestle"
+  },
+  {
+    "byte_offset": "0xCCC",
+    "bit_index": 5,
+    "id": "76210",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - Foot of the Four Belfries"
+  },
+  {
+    "byte_offset": "0xCCF",
+    "bit_index": 6,
+    "id": "76233",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - Gate Town North"
+  },
+  {
+    "byte_offset": "0xCCC",
+    "bit_index": 1,
+    "id": "76214",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - Main Caria Manor Gate"
+  },
+  {
+    "byte_offset": "0xCCE",
+    "bit_index": 0,
+    "id": "76231",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - Manor Lower Level"
+  },
+  {
+    "byte_offset": "0xCCE",
+    "bit_index": 1,
+    "id": "76230",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - Manor Upper Level"
+  },
+  {
+    "byte_offset": "0xCCC",
+    "bit_index": 3,
+    "id": "76212",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - Northern Liurnia Lake Shore"
+  },
+  {
+    "byte_offset": "0xCCC",
+    "bit_index": 2,
+    "id": "76213",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - Road to the Manor"
+  },
+  {
+    "byte_offset": "0xCCF",
+    "bit_index": 7,
+    "id": "76232",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - Royal Moongazing Grounds"
+  },
+  {
+    "byte_offset": "0xCCC",
+    "bit_index": 4,
+    "id": "76211",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - Sorcerer's Isle"
+  },
+  {
+    "byte_offset": "0xCD0",
+    "bit_index": 6,
+    "id": "76241",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - Temple Quarter"
+  },
+  {
+    "byte_offset": "0xCCE",
+    "bit_index": 4,
+    "id": "76227",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - The Four Belfries"
+  },
+  {
+    "byte_offset": "0xB48",
+    "bit_index": 5,
+    "id": "73106",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - Academy Crystal Cave"
+  },
+  {
+    "byte_offset": "0xCCF",
+    "bit_index": 1,
+    "id": "76238",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - Behind Caria Manor"
+  },
+  {
+    "byte_offset": "0xB3B",
+    "bit_index": 2,
+    "id": "73005",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - Black Knife Catacombs"
+  },
+  {
+    "byte_offset": "0xB3B",
+    "bit_index": 1,
+    "id": "73006",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - Cliffbottom Catacombs"
+  },
+  {
+    "byte_offset": "0xB48",
+    "bit_index": 6,
+    "id": "73105",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - Lakeside Crystal Cave"
+  },
+  {
+    "byte_offset": "0xB6F",
+    "bit_index": 2,
+    "id": "73421",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - Liurnia Tower Bridge"
+  },
+  {
+    "byte_offset": "0xCCE",
+    "bit_index": 3,
+    "id": "76228",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - Ranni's Rise"
+  },
+  {
+    "byte_offset": "0xCCE",
+    "bit_index": 2,
+    "id": "76229",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - Ravine-Veiled Village"
+  },
+  {
+    "byte_offset": "0xB54",
+    "bit_index": 5,
+    "id": "73202",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - Raya Lucaria Crystal Tunnel"
+  },
+  {
+    "byte_offset": "0xB3B",
+    "bit_index": 4,
+    "id": "73003",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - Road's End Catacombs"
+  },
+  {
+    "byte_offset": "0xB48",
+    "bit_index": 7,
+    "id": "73104",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - Stillwater Cave"
+  },
+  {
+    "byte_offset": "0xB6F",
+    "bit_index": 3,
+    "id": "73420",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - Study Hall Entrance"
+  },
+  {
+    "byte_offset": "0xCCF",
+    "bit_index": 4,
+    "id": "76235",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - The Ravine"
+  },
+  {
+    "byte_offset": "0xB6F",
+    "bit_index": 1,
+    "id": "73422",
+    "name": "Liurnia of the Lakes - Liurnia of the Lakes - Divine Tower of Liurnia"
+  },
+  {
+    "byte_offset": "0xCCC",
+    "bit_index": 7,
+    "id": "76208",
+    "name": "Liurnia of the Lakes - Bellum Highway - Bellum Church"
+  },
+  {
+    "byte_offset": "0xCD0",
+    "bit_index": 7,
+    "id": "76240",
+    "name": "Liurnia of the Lakes - Bellum Highway - Church of Inhibition"
+  },
+  {
+    "byte_offset": "0xCCB",
+    "bit_index": 0,
+    "id": "76207",
+    "name": "Liurnia of the Lakes - Bellum Highway - East Raya Lucaria Gate"
+  },
+  {
+    "byte_offset": "0xCCF",
+    "bit_index": 0,
+    "id": "76239",
+    "name": "Liurnia of the Lakes - Bellum Highway - Frenzied Flame Village Outskirts"
+  },
+  {
+    "byte_offset": "0xCCC",
+    "bit_index": 6,
+    "id": "76209",
+    "name": "Liurnia of the Lakes - Bellum Highway - Grand Lift of Dectus"
+  },
+  {
+    "byte_offset": "0xBAB",
+    "bit_index": 3,
+    "id": "73900",
+    "name": "Liurnia of the Lakes - Ruin-Strewn Precipice - Magma Wyrm"
+  },
+  {
+    "byte_offset": "0xBAB",
+    "bit_index": 2,
+    "id": "73901",
+    "name": "Liurnia of the Lakes - Ruin-Strewn Precipice - Ruin-Strewn Precipice"
+  },
+  {
+    "byte_offset": "0xBAB",
+    "bit_index": 1,
+    "id": "73902",
+    "name": "Liurnia of the Lakes - Ruin-Strewn Precipice - Ruin-Strewn Precipice Overlook"
+  },
+  {
+    "byte_offset": "0xCD1",
+    "bit_index": 3,
+    "id": "76252",
+    "name": "Liurnia of the Lakes - Moonlight Altar - Altar South"
+  },
+  {
+    "byte_offset": "0xCD1",
+    "bit_index": 4,
+    "id": "76251",
+    "name": "Liurnia of the Lakes - Moonlight Altar - Cathedral of Manus Celes"
+  },
+  {
+    "byte_offset": "0xCD1",
+    "bit_index": 5,
+    "id": "76250",
+    "name": "Liurnia of the Lakes - Moonlight Altar - Moonlight Altar"
+  },
+  {
+    "byte_offset": "0xA73",
+    "bit_index": 5,
+    "id": "71402",
+    "name": "Academy of Raya Lucaria - Church of the Cuckoo"
+  },
+  {
+    "byte_offset": "0xA73",
+    "bit_index": 6,
+    "id": "71401",
+    "name": "Academy of Raya Lucaria - Debate Parlour"
+  },
+  {
+    "byte_offset": "0xA73",
+    "bit_index": 7,
+    "id": "71400",
+    "name": "Academy of Raya Lucaria - Raya Lucaria Grand Library"
+  },
+  {
+    "byte_offset": "0xA73",
+    "bit_index": 4,
+    "id": "71403",
+    "name": "Academy of Raya Lucaria - Schoolhouse Classroom"
+  },
+  {
+    "byte_offset": "0xCD7",
+    "bit_index": 3,
+    "id": "76300",
+    "name": "Altus Plateau - Altus Plateau - Abandoned Coffin"
+  },
+  {
+    "byte_offset": "0xCD7",
+    "bit_index": 0,
+    "id": "76303",
+    "name": "Altus Plateau - Altus Plateau - Altus Highway Junction"
+  },
+  {
+    "byte_offset": "0xCD7",
+    "bit_index": 2,
+    "id": "76301",
+    "name": "Altus Plateau - Altus Plateau - Altus Plateau"
+  },
+  {
+    "byte_offset": "0xCD8",
+    "bit_index": 5,
+    "id": "76306",
+    "name": "Altus Plateau - Altus Plateau - Bower of Bounty"
+  },
+  {
+    "byte_offset": "0xCD7",
+    "bit_index": 1,
+    "id": "76302",
+    "name": "Altus Plateau - Altus Plateau - Erdtree-Gazing Hill"
+  },
+  {
+    "byte_offset": "0xCD8",
+    "bit_index": 7,
+    "id": "76304",
+    "name": "Altus Plateau - Altus Plateau - Forest-Spanning Greatbridge"
+  },
+  {
+    "byte_offset": "0xCD8",
+    "bit_index": 6,
+    "id": "76305",
+    "name": "Altus Plateau - Altus Plateau - Rampartside Path"
+  },
+  {
+    "byte_offset": "0xCD8",
+    "bit_index": 4,
+    "id": "76307",
+    "name": "Altus Plateau - Altus Plateau - Road of Iniquity Side Path"
+  },
+  {
+    "byte_offset": "0xCDA",
+    "bit_index": 6,
+    "id": "76321",
+    "name": "Altus Plateau - Altus Plateau - Shaded Castle Inner Gate"
+  },
+  {
+    "byte_offset": "0xCDA",
+    "bit_index": 7,
+    "id": "76320",
+    "name": "Altus Plateau - Altus Plateau - Shaded Castle Ramparts"
+  },
+  {
+    "byte_offset": "0xCD9",
+    "bit_index": 6,
+    "id": "76313",
+    "name": "Altus Plateau - Altus Plateau - Windmill Heights"
+  },
+  {
+    "byte_offset": "0xCD8",
+    "bit_index": 3,
+    "id": "76308",
+    "name": "Altus Plateau - Altus Plateau - Windmill Village"
+  },
+  {
+    "byte_offset": "0xB54",
+    "bit_index": 2,
+    "id": "73205",
+    "name": "Altus Plateau - Altus Plateau - Altus Tunnel"
+  },
+  {
+    "byte_offset": "0xCDA",
+    "bit_index": 5,
+    "id": "76322",
+    "name": "Altus Plateau - Altus Plateau - Castellan's Hall"
+  },
+  {
+    "byte_offset": "0xB54",
+    "bit_index": 3,
+    "id": "73204",
+    "name": "Altus Plateau - Altus Plateau - Old Altus Tunnel"
+  },
+  {
+    "byte_offset": "0xB49",
+    "bit_index": 1,
+    "id": "73118",
+    "name": "Altus Plateau - Altus Plateau - Perfumer's Grotto"
+  },
+  {
+    "byte_offset": "0xB49",
+    "bit_index": 0,
+    "id": "73119",
+    "name": "Altus Plateau - Altus Plateau - Sage's Cave"
+  },
+  {
+    "byte_offset": "0xB3C",
+    "bit_index": 7,
+    "id": "73008",
+    "name": "Altus Plateau - Altus Plateau - Sainted Hero's Grave"
+  },
+  {
+    "byte_offset": "0xB3C",
+    "bit_index": 3,
+    "id": "73012",
+    "name": "Altus Plateau - Altus Plateau - Unsightly Catacombs"
+  },
+  {
+    "byte_offset": "0xCDD",
+    "bit_index": 1,
+    "id": "76350",
+    "name": "Altus Plateau - Mt. Gelmir - Bridge of Iniquity"
+  },
+  {
+    "byte_offset": "0xCDE",
+    "bit_index": 3,
+    "id": "76356",
+    "name": "Altus Plateau - Mt. Gelmir - Craftsman's Shack"
+  },
+  {
+    "byte_offset": "0xCDD",
+    "bit_index": 0,
+    "id": "76351",
+    "name": "Altus Plateau - Mt. Gelmir - First Mt. Gelmir Campsite"
+  },
+  {
+    "byte_offset": "0xB3C",
+    "bit_index": 6,
+    "id": "73009",
+    "name": "Altus Plateau - Mt. Gelmir - Gelmir Hero's Grave"
+  },
+  {
+    "byte_offset": "0xCDE",
+    "bit_index": 7,
+    "id": "76352",
+    "name": "Altus Plateau - Mt. Gelmir - Ninth Mt. Gelmir Campsite"
+  },
+  {
+    "byte_offset": "0xCDE",
+    "bit_index": 2,
+    "id": "76357",
+    "name": "Altus Plateau - Mt. Gelmir - Primeval Sorcerer Azur"
+  },
+  {
+    "byte_offset": "0xCDE",
+    "bit_index": 6,
+    "id": "76353",
+    "name": "Altus Plateau - Mt. Gelmir - Road of Iniquity"
+  },
+  {
+    "byte_offset": "0xB48",
+    "bit_index": 4,
+    "id": "73107",
+    "name": "Altus Plateau - Mt. Gelmir - Seethewater Cave"
+  },
+  {
+    "byte_offset": "0xCDE",
+    "bit_index": 5,
+    "id": "76354",
+    "name": "Altus Plateau - Mt. Gelmir - Seethewater River"
+  },
+  {
+    "byte_offset": "0xCDE",
+    "bit_index": 4,
+    "id": "76355",
+    "name": "Altus Plateau - Mt. Gelmir - Seethewater Terminus"
+  },
+  {
+    "byte_offset": "0xB48",
+    "bit_index": 2,
+    "id": "73109",
+    "name": "Altus Plateau - Mt. Gelmir - Volcano Cave"
+  },
+  {
+    "byte_offset": "0xB3B",
+    "bit_index": 0,
+    "id": "73007",
+    "name": "Altus Plateau - Mt. Gelmir - Wyndham Catacombs"
+  },
+  {
+    "byte_offset": "0xB3C",
+    "bit_index": 2,
+    "id": "73013",
+    "name": "Altus Plateau - Leyndell, Royal Capital - Auriza Side Tomb"
+  },
+  {
+    "byte_offset": "0xB3C",
+    "bit_index": 5,
+    "id": "73010",
+    "name": "Altus Plateau - Leyndell, Royal Capital - Auzira Hero's Grave"
+  },
+  {
+    "byte_offset": "0xCD9",
+    "bit_index": 5,
+    "id": "76314",
+    "name": "Altus Plateau - Leyndell, Royal Capital - Capital Rampart"
+  },
+  {
+    "byte_offset": "0xB70",
+    "bit_index": 1,
+    "id": "73430",
+    "name": "Altus Plateau - Leyndell, Royal Capital - Divine Tower of West Altus"
+  },
+  {
+    "byte_offset": "0xB71",
+    "bit_index": 7,
+    "id": "73432",
+    "name": "Altus Plateau - Leyndell, Royal Capital - Divine Tower of West Altus, --  Gate"
+  },
+  {
+    "byte_offset": "0xCD8",
+    "bit_index": 0,
+    "id": "76311",
+    "name": "Altus Plateau - Leyndell, Royal Capital - Hermit Merchant's Shack"
+  },
+  {
+    "byte_offset": "0xCD8",
+    "bit_index": 1,
+    "id": "76310",
+    "name": "Altus Plateau - Leyndell, Royal Capital - Minor Erdtree Church"
+  },
+  {
+    "byte_offset": "0xCD9",
+    "bit_index": 7,
+    "id": "76312",
+    "name": "Altus Plateau - Leyndell, Royal Capital - Outer Wall Battleground"
+  },
+  {
+    "byte_offset": "0xCD8",
+    "bit_index": 2,
+    "id": "76309",
+    "name": "Altus Plateau - Leyndell, Royal Capital - Outer Wall Phantom Tree"
+  },
+  {
+    "byte_offset": "0xB70",
+    "bit_index": 0,
+    "id": "73431",
+    "name": "Altus Plateau - Leyndell, Royal Capital - Sealed Tunnel"
+  },
+  {
+    "byte_offset": "0xA8C",
+    "bit_index": 1,
+    "id": "71606",
+    "name": "Volcano Manor - Abductor Virgin"
+  },
+  {
+    "byte_offset": "0xA8C",
+    "bit_index": 2,
+    "id": "71605",
+    "name": "Volcano Manor - Audience Pathway"
+  },
+  {
+    "byte_offset": "0xA8C",
+    "bit_index": 3,
+    "id": "71604",
+    "name": "Volcano Manor - Guest Hall"
+  },
+  {
+    "byte_offset": "0xA8C",
+    "bit_index": 4,
+    "id": "71603",
+    "name": "Volcano Manor - Prison Town Church"
+  },
+  {
+    "byte_offset": "0xA8C",
+    "bit_index": 7,
+    "id": "71600",
+    "name": "Volcano Manor - Rykard, Lord of Blasphemy"
+  },
+  {
+    "byte_offset": "0xA8C",
+    "bit_index": 0,
+    "id": "71607",
+    "name": "Volcano Manor - Subterranean Inquisition Chamber"
+  },
+  {
+    "byte_offset": "0xA8C",
+    "bit_index": 6,
+    "id": "71601",
+    "name": "Volcano Manor - Temple of Eiglay"
+  },
+  {
+    "byte_offset": "0xA8C",
+    "bit_index": 5,
+    "id": "71602",
+    "name": "Volcano Manor - Volcano Manor"
+  },
+  {
+    "byte_offset": "0xA4D",
+    "bit_index": 0,
+    "id": "71103",
+    "name": "Leyndell, Royal Capital - Leyndell, Royal Capital - Lower Capital Church"
+  },
+  {
+    "byte_offset": "0xA4D",
+    "bit_index": 1,
+    "id": "71102",
+    "name": "Leyndell, Royal Capital - Leyndell, Royal Capital - East Capital Rampart"
+  },
+  {
+    "byte_offset": "0xA4D",
+    "bit_index": 2,
+    "id": "71101",
+    "name": "Leyndell, Royal Capital - Leyndell, Royal Capital - Erdtree Sanctuary"
+  },
+  {
+    "byte_offset": "0xA4D",
+    "bit_index": 3,
+    "id": "71100",
+    "name": "Leyndell, Royal Capital - Leyndell, Royal Capital - Elden Throne"
+  },
+  {
+    "byte_offset": "0xA4E",
+    "bit_index": 2,
+    "id": "71109",
+    "name": "Leyndell, Royal Capital - Leyndell, Royal Capital - Divine Bridge"
+  },
+  {
+    "byte_offset": "0xA4E",
+    "bit_index": 3,
+    "id": "71108",
+    "name": "Leyndell, Royal Capital - Leyndell, Royal Capital - Fortified Manor, First Floor"
+  },
+  {
+    "byte_offset": "0xA4E",
+    "bit_index": 4,
+    "id": "71107",
+    "name": "Leyndell, Royal Capital - Leyndell, Royal Capital - Queen's Bedchamber"
+  },
+  {
+    "byte_offset": "0xA4E",
+    "bit_index": 6,
+    "id": "71105",
+    "name": "Leyndell, Royal Capital - Leyndell, Royal Capital - West Capital Rampart"
+  },
+  {
+    "byte_offset": "0xA4E",
+    "bit_index": 7,
+    "id": "71104",
+    "name": "Leyndell, Royal Capital - Leyndell, Royal Capital - Avenue Balcony"
+  },
+  {
+    "byte_offset": "0xB79",
+    "bit_index": 3,
+    "id": "73500",
+    "name": "Leyndell, Royal Capital - Subterranean Shunning-Grounds - Cathedral of the Forsaken"
+  },
+  {
+    "byte_offset": "0xB79",
+    "bit_index": 1,
+    "id": "73502",
+    "name": "Leyndell, Royal Capital - Subterranean Shunning-Grounds - Forsaken Depths"
+  },
+  {
+    "byte_offset": "0xB7A",
+    "bit_index": 7,
+    "id": "73504",
+    "name": "Leyndell, Royal Capital - Subterranean Shunning-Grounds - Frenzied Flame Proscription"
+  },
+  {
+    "byte_offset": "0xB79",
+    "bit_index": 0,
+    "id": "73503",
+    "name": "Leyndell, Royal Capital - Subterranean Shunning-Grounds - Leyndell Catacombs"
+  },
+  {
+    "byte_offset": "0xB79",
+    "bit_index": 2,
+    "id": "73501",
+    "name": "Leyndell, Royal Capital - Subterranean Shunning-Grounds - Underground Roadside"
+  },
+  {
+    "byte_offset": "0xA50",
+    "bit_index": 2,
+    "id": "71125",
+    "name": "Leyndell, Royal Capital - Leyndell, Ashen Capital - Divine Bridge"
+  },
+  {
+    "byte_offset": "0xA50",
+    "bit_index": 5,
+    "id": "71122",
+    "name": "Leyndell, Royal Capital - Leyndell, Ashen Capital - East Capital Rampart"
+  },
+  {
+    "byte_offset": "0xA50",
+    "bit_index": 7,
+    "id": "71120",
+    "name": "Leyndell, Royal Capital - Leyndell, Ashen Capital - Elden Throne"
+  },
+  {
+    "byte_offset": "0xA50",
+    "bit_index": 6,
+    "id": "71121",
+    "name": "Leyndell, Royal Capital - Leyndell, Ashen Capital - Erdtree Sanctuary"
+  },
+  {
+    "byte_offset": "0xA50",
+    "bit_index": 4,
+    "id": "71123",
+    "name": "Leyndell, Royal Capital - Leyndell, Ashen Capital - Leyendell, Capital of Ash"
+  },
+  {
+    "byte_offset": "0xA50",
+    "bit_index": 3,
+    "id": "71124",
+    "name": "Leyndell, Royal Capital - Leyndell, Ashen Capital - Queen's Bedchamber"
+  },
+  {
+    "byte_offset": "0xAB1",
+    "bit_index": 3,
+    "id": "71900",
+    "name": "Leyndell, Royal Capital - Stone Platform - Fractured Marika"
+  },
+  {
+    "byte_offset": "0xCE4",
+    "bit_index": 4,
+    "id": "76403",
+    "name": "Caelid - Caelid - Caelem Ruins"
+  },
+  {
+    "byte_offset": "0xCE4",
+    "bit_index": 2,
+    "id": "76405",
+    "name": "Caelid - Caelid - Caelid Highway South"
+  },
+  {
+    "byte_offset": "0xCE4",
+    "bit_index": 3,
+    "id": "76404",
+    "name": "Caelid - Caelid - Cathedral of Dragon Communion"
+  },
+  {
+    "byte_offset": "0xCE5",
+    "bit_index": 0,
+    "id": "76415",
+    "name": "Caelid - Caelid - Chair-Crypt of Sellia"
+  },
+  {
+    "byte_offset": "0xCE6",
+    "bit_index": 5,
+    "id": "76418",
+    "name": "Caelid - Caelid - Church of the Plague"
+  },
+  {
+    "byte_offset": "0xCE4",
+    "bit_index": 5,
+    "id": "76402",
+    "name": "Caelid - Caelid - Fort Gael North"
+  },
+  {
+    "byte_offset": "0xCE4",
+    "bit_index": 6,
+    "id": "76401",
+    "name": "Caelid - Caelid - Rotview Balcony"
+  },
+  {
+    "byte_offset": "0xCE5",
+    "bit_index": 1,
+    "id": "76414",
+    "name": "Caelid - Caelid - Sellia Backstreets"
+  },
+  {
+    "byte_offset": "0xCE6",
+    "bit_index": 7,
+    "id": "76416",
+    "name": "Caelid - Caelid - Sellia Under-Stair"
+  },
+  {
+    "byte_offset": "0xCE4",
+    "bit_index": 7,
+    "id": "76400",
+    "name": "Caelid - Caelid - Smoldering Church"
+  },
+  {
+    "byte_offset": "0xCE5",
+    "bit_index": 6,
+    "id": "76409",
+    "name": "Caelid - Caelid - Smoldering Wall"
+  },
+  {
+    "byte_offset": "0xCE5",
+    "bit_index": 4,
+    "id": "76411",
+    "name": "Caelid - Caelid - Southern Aeonia Swamp Bank"
+  },
+  {
+    "byte_offset": "0xB4A",
+    "bit_index": 7,
+    "id": "73120",
+    "name": "Caelid - Caelid - Abandoned Cave"
+  },
+  {
+    "byte_offset": "0xB3C",
+    "bit_index": 0,
+    "id": "73015",
+    "name": "Caelid - Caelid - Caelid Catacombs"
+  },
+  {
+    "byte_offset": "0xCE6",
+    "bit_index": 3,
+    "id": "76420",
+    "name": "Caelid - Caelid - Chamber Outside the Plaza"
+  },
+  {
+    "byte_offset": "0xCE5",
+    "bit_index": 5,
+    "id": "76410",
+    "name": "Caelid - Caelid - Deep Siofra Well"
+  },
+  {
+    "byte_offset": "0xB54",
+    "bit_index": 0,
+    "id": "73207",
+    "name": "Caelid - Caelid - Gael Tunnel"
+  },
+  {
+    "byte_offset": "0xB4A",
+    "bit_index": 6,
+    "id": "73121",
+    "name": "Caelid - Caelid - Gaol Cave"
+  },
+  {
+    "byte_offset": "0xCE6",
+    "bit_index": 6,
+    "id": "76417",
+    "name": "Caelid - Caelid - Impassable Greatbridge"
+  },
+  {
+    "byte_offset": "0xB3C",
+    "bit_index": 1,
+    "id": "73014",
+    "name": "Caelid - Caelid - Minor Erdtree Catacombs"
+  },
+  {
+    "byte_offset": "0xB5B",
+    "bit_index": 6,
+    "id": "73257",
+    "name": "Caelid - Caelid - Rear Gael Tunnel Entrance"
+  },
+  {
+    "byte_offset": "0xCE6",
+    "bit_index": 4,
+    "id": "76419",
+    "name": "Caelid - Caelid - Redmane Castle Plaza"
+  },
+  {
+    "byte_offset": "0xB55",
+    "bit_index": 7,
+    "id": "73208",
+    "name": "Caelid - Caelid - Sellia Crystal Tunnel"
+  },
+  {
+    "byte_offset": "0xCE6",
+    "bit_index": 1,
+    "id": "76422",
+    "name": "Caelid - Caelid - Starscourge Radahn"
+  },
+  {
+    "byte_offset": "0xB3D",
+    "bit_index": 7,
+    "id": "73016",
+    "name": "Caelid - Caelid - War-Dead Catacombs"
+  },
+  {
+    "byte_offset": "0xCE4",
+    "bit_index": 1,
+    "id": "76406",
+    "name": "Caelid - Swamp of Aeonia - Aeonia Swamp Shore"
+  },
+  {
+    "byte_offset": "0xCE4",
+    "bit_index": 0,
+    "id": "76407",
+    "name": "Caelid - Swamp of Aeonia - Astray from Caelid Highway North"
+  },
+  {
+    "byte_offset": "0xCE5",
+    "bit_index": 3,
+    "id": "76412",
+    "name": "Caelid - Swamp of Aeonia - Heart of Aeonia"
+  },
+  {
+    "byte_offset": "0xCE5",
+    "bit_index": 2,
+    "id": "76413",
+    "name": "Caelid - Swamp of Aeonia - Inner Aeonia"
+  },
+  {
+    "byte_offset": "0xCEA",
+    "bit_index": 1,
+    "id": "76454",
+    "name": "Caelid - Greyoll's Dragonbarrow - Bestial Sanctum"
+  },
+  {
+    "byte_offset": "0xB72",
+    "bit_index": 7,
+    "id": "73440",
+    "name": "Caelid - Greyoll's Dragonbarrow - Divine Tower of Caelid, --  Basement"
+  },
+  {
+    "byte_offset": "0xB72",
+    "bit_index": 6,
+    "id": "73441",
+    "name": "Caelid - Greyoll's Dragonbarrow - Divine Tower of Caelid, --  Center"
+  },
+  {
+    "byte_offset": "0xB48",
+    "bit_index": 1,
+    "id": "73110",
+    "name": "Caelid - Greyoll's Dragonbarrow - Dragonbarrow Cave"
+  },
+  {
+    "byte_offset": "0xCEA",
+    "bit_index": 3,
+    "id": "76452",
+    "name": "Caelid - Greyoll's Dragonbarrow - Dragonbarrow Fork"
+  },
+  {
+    "byte_offset": "0xCEA",
+    "bit_index": 5,
+    "id": "76450",
+    "name": "Caelid - Greyoll's Dragonbarrow - Dragonbarrow West"
+  },
+  {
+    "byte_offset": "0xCEB",
+    "bit_index": 7,
+    "id": "76456",
+    "name": "Caelid - Greyoll's Dragonbarrow - Farum Greatbridge"
+  },
+  {
+    "byte_offset": "0xCEA",
+    "bit_index": 2,
+    "id": "76453",
+    "name": "Caelid - Greyoll's Dragonbarrow - Fort Faroth"
+  },
+  {
+    "byte_offset": "0xB74",
+    "bit_index": 3,
+    "id": "73460",
+    "name": "Caelid - Greyoll's Dragonbarrow - Isolated Divine Tower"
+  },
+  {
+    "byte_offset": "0xCEA",
+    "bit_index": 4,
+    "id": "76451",
+    "name": "Caelid - Greyoll's Dragonbarrow - Isolated Merchant's Shack (Greyoll's Dragonbarrow)"
+  },
+  {
+    "byte_offset": "0xCEA",
+    "bit_index": 0,
+    "id": "76455",
+    "name": "Caelid - Greyoll's Dragonbarrow - Lenne's Rise"
+  },
+  {
+    "byte_offset": "0xB48",
+    "bit_index": 0,
+    "id": "73111",
+    "name": "Caelid - Greyoll's Dragonbarrow - Sellia Hideaway"
+  },
+  {
+    "byte_offset": "0xB73",
+    "bit_index": 4,
+    "id": "73451",
+    "name": "Mountaintops of the Giants - Forbiden Lands - Divine Tower of the East Altus"
+  },
+  {
+    "byte_offset": "0xB73",
+    "bit_index": 5,
+    "id": "73450",
+    "name": "Mountaintops of the Giants - Forbiden Lands - Divine Tower of the East Altus, --  Gate"
+  },
+  {
+    "byte_offset": "0xCF0",
+    "bit_index": 3,
+    "id": "76500",
+    "name": "Mountaintops of the Giants - Forbiden Lands - Forbidden Lands"
+  },
+  {
+    "byte_offset": "0xCF0",
+    "bit_index": 1,
+    "id": "76502",
+    "name": "Mountaintops of the Giants - Forbiden Lands - Grand Lift of Rold"
+  },
+  {
+    "byte_offset": "0xB3D",
+    "bit_index": 3,
+    "id": "73020",
+    "name": "Mountaintops of the Giants - Forbiden Lands - Hidden Path to the Haligtree"
+  },
+  {
+    "byte_offset": "0xCF0",
+    "bit_index": 0,
+    "id": "76503",
+    "name": "Mountaintops of the Giants - Mountaintops of the Giants - Ancient Snow Valley Ruins"
+  },
+  {
+    "byte_offset": "0xCF3",
+    "bit_index": 5,
+    "id": "76522",
+    "name": "Mountaintops of the Giants - Mountaintops of the Giants - Castle Sol Main Gate"
+  },
+  {
+    "byte_offset": "0xCF3",
+    "bit_index": 3,
+    "id": "76524",
+    "name": "Mountaintops of the Giants - Mountaintops of the Giants - Castle Sol Rooftop"
+  },
+  {
+    "byte_offset": "0xCF3",
+    "bit_index": 4,
+    "id": "76523",
+    "name": "Mountaintops of the Giants - Mountaintops of the Giants - Church of the Eclipse"
+  },
+  {
+    "byte_offset": "0xCF1",
+    "bit_index": 6,
+    "id": "76505",
+    "name": "Mountaintops of the Giants - Mountaintops of the Giants - First Church of Marika"
+  },
+  {
+    "byte_offset": "0xCF1",
+    "bit_index": 7,
+    "id": "76504",
+    "name": "Mountaintops of the Giants - Mountaintops of the Giants - Freezing Lake"
+  },
+  {
+    "byte_offset": "0xCF3",
+    "bit_index": 6,
+    "id": "76521",
+    "name": "Mountaintops of the Giants - Mountaintops of the Giants - Snow Valley Ruins Overlook"
+  },
+  {
+    "byte_offset": "0xB4A",
+    "bit_index": 5,
+    "id": "73122",
+    "name": "Mountaintops of the Giants - Mountaintops of the Giants - Spiritcaller's Cave"
+  },
+  {
+    "byte_offset": "0xCF3",
+    "bit_index": 7,
+    "id": "76520",
+    "name": "Mountaintops of the Giants - Mountaintops of the Giants - Whiteridge Road"
+  },
+  {
+    "byte_offset": "0xCF0",
+    "bit_index": 2,
+    "id": "76501",
+    "name": "Mountaintops of the Giants - Mountaintops of the Giants - Zamor Ruins"
+  },
+  {
+    "byte_offset": "0xCF1",
+    "bit_index": 4,
+    "id": "76507",
+    "name": "Mountaintops of the Giants - Flame Peak - Church of Repose"
+  },
+  {
+    "byte_offset": "0xCF1",
+    "bit_index": 2,
+    "id": "76509",
+    "name": "Mountaintops of the Giants - Flame Peak - Fire Giant"
+  },
+  {
+    "byte_offset": "0xCF1",
+    "bit_index": 3,
+    "id": "76508",
+    "name": "Mountaintops of the Giants - Flame Peak - Foot of the Forge"
+  },
+  {
+    "byte_offset": "0xCF1",
+    "bit_index": 1,
+    "id": "76510",
+    "name": "Mountaintops of the Giants - Flame Peak - Forge of the Giants"
+  },
+  {
+    "byte_offset": "0xCF1",
+    "bit_index": 5,
+    "id": "76506",
+    "name": "Mountaintops of the Giants - Flame Peak - Giant's Gravepost"
+  },
+  {
+    "byte_offset": "0xB3D",
+    "bit_index": 5,
+    "id": "73018",
+    "name": "Mountaintops of the Giants - Flame Peak - Giant's Mountaintop Catacombs"
+  },
+  {
+    "byte_offset": "0xB3D",
+    "bit_index": 6,
+    "id": "73017",
+    "name": "Mountaintops of the Giants - Flame Peak - Giant-Conquering Hero's Grave"
+  },
+  {
+    "byte_offset": "0xD03",
+    "bit_index": 2,
+    "id": "76653",
+    "name": "Mountaintops of the Giants - Consecrated Snowfield - Apostate Derelict"
+  },
+  {
+    "byte_offset": "0xB49",
+    "bit_index": 7,
+    "id": "73112",
+    "name": "Mountaintops of the Giants - Consecrated Snowfield - Cave of the Forlorn"
+  },
+  {
+    "byte_offset": "0xCF6",
+    "bit_index": 1,
+    "id": "76550",
+    "name": "Mountaintops of the Giants - Consecrated Snowfield - Consecrated Snowfield"
+  },
+  {
+    "byte_offset": "0xB3D",
+    "bit_index": 4,
+    "id": "73019",
+    "name": "Mountaintops of the Giants - Consecrated Snowfield - Consecrated Snowfield Catacombs"
+  },
+  {
+    "byte_offset": "0xCF6",
+    "bit_index": 0,
+    "id": "76551",
+    "name": "Mountaintops of the Giants - Consecrated Snowfield - Inner Consecrated Snowfield"
+  },
+  {
+    "byte_offset": "0xD03",
+    "bit_index": 3,
+    "id": "76652",
+    "name": "Mountaintops of the Giants - Consecrated Snowfield - Ordina, Liturgical Town"
+  },
+  {
+    "byte_offset": "0xB55",
+    "bit_index": 4,
+    "id": "73211",
+    "name": "Mountaintops of the Giants - Consecrated Snowfield - Yelough Anix Tunnel"
+  },
+  {
+    "byte_offset": "0xA80",
+    "bit_index": 5,
+    "id": "71506",
+    "name": "Miquella's Haligtree - Miquella's Haligtree - Haligtree Canopy"
+  },
+  {
+    "byte_offset": "0xA80",
+    "bit_index": 6,
+    "id": "71505",
+    "name": "Miquella's Haligtree - Miquella's Haligtree - Haligtree Promenade"
+  },
+  {
+    "byte_offset": "0xA80",
+    "bit_index": 4,
+    "id": "71507",
+    "name": "Miquella's Haligtree - Miquella's Haligtree - Haligtree Town"
+  },
+  {
+    "byte_offset": "0xA80",
+    "bit_index": 3,
+    "id": "71508",
+    "name": "Miquella's Haligtree - Miquella's Haligtree - Haligtree Town Plaza"
+  },
+  {
+    "byte_offset": "0xA7F",
+    "bit_index": 0,
+    "id": "71503",
+    "name": "Miquella's Haligtree - Elphael, Brace of the Haligtree - Drainage Channel"
+  },
+  {
+    "byte_offset": "0xA7F",
+    "bit_index": 1,
+    "id": "71502",
+    "name": "Miquella's Haligtree - Elphael, Brace of the Haligtree - Elphael Inner Wall"
+  },
+  {
+    "byte_offset": "0xA80",
+    "bit_index": 7,
+    "id": "71504",
+    "name": "Miquella's Haligtree - Elphael, Brace of the Haligtree - Haligtree Roots"
+  },
+  {
+    "byte_offset": "0xA7F",
+    "bit_index": 3,
+    "id": "71500",
+    "name": "Miquella's Haligtree - Elphael, Brace of the Haligtree - Malenia, Goddess of Rot"
+  },
+  {
+    "byte_offset": "0xA7F",
+    "bit_index": 2,
+    "id": "71501",
+    "name": "Miquella's Haligtree - Elphael, Brace of the Haligtree - Prayer Room"
+  },
+  {
+    "byte_offset": "0xA67",
+    "bit_index": 1,
+    "id": "71310",
+    "name": "Crumbling Farum Azula - Beside the great Bridge"
+  },
+  {
+    "byte_offset": "0xA66",
+    "bit_index": 0,
+    "id": "71303",
+    "name": "Crumbling Farum Azula - Crumbling Beast Grave"
+  },
+  {
+    "byte_offset": "0xA67",
+    "bit_index": 7,
+    "id": "71304",
+    "name": "Crumbling Farum Azula - Crumbling Beast Grave Depths"
+  },
+  {
+    "byte_offset": "0xA67",
+    "bit_index": 5,
+    "id": "71306",
+    "name": "Crumbling Farum Azula - Dragon Temple"
+  },
+  {
+    "byte_offset": "0xA66",
+    "bit_index": 1,
+    "id": "71302",
+    "name": "Crumbling Farum Azula - Dragon Temple Altar"
+  },
+  {
+    "byte_offset": "0xA67",
+    "bit_index": 3,
+    "id": "71308",
+    "name": "Crumbling Farum Azula - Dragon Temple Lift"
+  },
+  {
+    "byte_offset": "0xA67",
+    "bit_index": 2,
+    "id": "71309",
+    "name": "Crumbling Farum Azula - Dragon Temple Rooftop"
+  },
+  {
+    "byte_offset": "0xA67",
+    "bit_index": 4,
+    "id": "71307",
+    "name": "Crumbling Farum Azula - Dragon Temple Transept"
+  },
+  {
+    "byte_offset": "0xA66",
+    "bit_index": 2,
+    "id": "71301",
+    "name": "Crumbling Farum Azula - Dragonlord Placidusax"
+  },
+  {
+    "byte_offset": "0xA66",
+    "bit_index": 3,
+    "id": "71300",
+    "name": "Crumbling Farum Azula - Maliketh, the Black Blade"
+  },
+  {
+    "byte_offset": "0xA67",
+    "bit_index": 6,
+    "id": "71305",
+    "name": "Crumbling Farum Azula - Tempest-Facing Balcony"
+  },
+  {
+    "byte_offset": "0xA5B",
+    "bit_index": 2,
+    "id": "71213",
+    "name": "Ainsel River - Ainsel River - Ainsel River Downstream"
+  },
+  {
+    "byte_offset": "0xA5B",
+    "bit_index": 3,
+    "id": "71212",
+    "name": "Ainsel River - Ainsel River - Ainsel River Sluice Gate"
+  },
+  {
+    "byte_offset": "0xA5B",
+    "bit_index": 4,
+    "id": "71211",
+    "name": "Ainsel River - Ainsel River - Ainsel River Well Depths"
+  },
+  {
+    "byte_offset": "0xA5F",
+    "bit_index": 7,
+    "id": "71240",
+    "name": "Ainsel River - Ainsel River - Astel, Naturalborn of the Void"
+  },
+  {
+    "byte_offset": "0xA5B",
+    "bit_index": 5,
+    "id": "71210",
+    "name": "Ainsel River - Ainsel River - Dragonkin Soldier of Nokstella"
+  },
+  {
+    "byte_offset": "0xA5B",
+    "bit_index": 1,
+    "id": "71214",
+    "name": "Ainsel River - Ainsel River Main - Ainsel River Main"
+  },
+  {
+    "byte_offset": "0xA5B",
+    "bit_index": 0,
+    "id": "71215",
+    "name": "Ainsel River - Ainsel River Main - Nokstella, Eternal City"
+  },
+  {
+    "byte_offset": "0xA5C",
+    "bit_index": 4,
+    "id": "71219",
+    "name": "Ainsel River - Ainsel River Main - Nokstella Waterfall Basin"
+  },
+  {
+    "byte_offset": "0xA5C",
+    "bit_index": 5,
+    "id": "71218",
+    "name": "Ainsel River - Lake of Rot - Grand Cloister"
+  },
+  {
+    "byte_offset": "0xA5C",
+    "bit_index": 7,
+    "id": "71216",
+    "name": "Ainsel River - Lake of Rot - Lake of Rot Shoreside"
+  },
+  {
+    "byte_offset": "0xA62",
+    "bit_index": 0,
+    "id": "71271",
+    "name": "Nokron, Eternal City - Nokron, Eternal City - Nokron, Eternal City"
+  },
+  {
+    "byte_offset": "0xA5D",
+    "bit_index": 7,
+    "id": "71224",
+    "name": "Nokron, Eternal City - Nokron, Eternal City - Ancestral Woods"
+  },
+  {
+    "byte_offset": "0xA5D",
+    "bit_index": 6,
+    "id": "71225",
+    "name": "Nokron, Eternal City - Nokron, Eternal City - Aqueduct-Facing Cliffs"
+  },
+  {
+    "byte_offset": "0xA5C",
+    "bit_index": 3,
+    "id": "71220",
+    "name": "Nokron, Eternal City - Nokron, Eternal City - Great Waterfall Basin"
+  },
+  {
+    "byte_offset": "0xA5C",
+    "bit_index": 2,
+    "id": "71221",
+    "name": "Nokron, Eternal City - Nokron, Eternal City - Mimic Tear"
+  },
+  {
+    "byte_offset": "0xA5D",
+    "bit_index": 5,
+    "id": "71226",
+    "name": "Nokron, Eternal City - Nokron, Eternal City - Night's Sacred Ground"
+  },
+  {
+    "byte_offset": "0xA5D",
+    "bit_index": 4,
+    "id": "71227",
+    "name": "Nokron, Eternal City - Siofra River - Below the Well"
+  },
+  {
+    "byte_offset": "0xA5C",
+    "bit_index": 1,
+    "id": "71222",
+    "name": "Nokron, Eternal City - Siofra River - Siofra River Bank"
+  },
+  {
+    "byte_offset": "0xA62",
+    "bit_index": 1,
+    "id": "71270",
+    "name": "Nokron, Eternal City - Siofra River - Siofra River Well Depths"
+  },
+  {
+    "byte_offset": "0xA5C",
+    "bit_index": 0,
+    "id": "71223",
+    "name": "Nokron, Eternal City - Siofra River - Worshippers' Woods"
+  },
+  {
+    "byte_offset": "0xA60",
+    "bit_index": 5,
+    "id": "71250",
+    "name": "Nokron, Eternal City - Mohgwyn Palace - Cocoon of the Empyrean"
+  },
+  {
+    "byte_offset": "0xA60",
+    "bit_index": 3,
+    "id": "71252",
+    "name": "Nokron, Eternal City - Mohgwyn Palace - Dynasty Mausoleum Entrance"
+  },
+  {
+    "byte_offset": "0xA60",
+    "bit_index": 2,
+    "id": "71253",
+    "name": "Nokron, Eternal City - Mohgwyn Palace - Dynasty Mausoleum Midpoint"
+  },
+  {
+    "byte_offset": "0xA60",
+    "bit_index": 4,
+    "id": "71251",
+    "name": "Nokron, Eternal City - Mohgwyn Palace - Palace Approach Ledge-Road"
+  },
+  {
+    "byte_offset": "0xA5E",
+    "bit_index": 4,
+    "id": "71235",
+    "name": "Deeproot Depths - Across the Roots"
+  },
+  {
+    "byte_offset": "0xA5E",
+    "bit_index": 6,
+    "id": "71233",
+    "name": "Deeproot Depths - Deeproot Depths"
+  },
+  {
+    "byte_offset": "0xA5E",
+    "bit_index": 7,
+    "id": "71232",
+    "name": "Deeproot Depths - Great Waterfall Crest"
+  },
+  {
+    "byte_offset": "0xA5D",
+    "bit_index": 1,
+    "id": "71230",
+    "name": "Deeproot Depths - Prince of Death's Throne"
+  },
+  {
+    "byte_offset": "0xA5D",
+    "bit_index": 0,
+    "id": "71231",
+    "name": "Deeproot Depths - Root-Facing Cliffs"
+  },
+  {
+    "byte_offset": "0xA5E",
+    "bit_index": 5,
+    "id": "71234",
+    "name": "Deeproot Depths - The Nameless Eternal City"
+  },
+  {
+    "byte_offset": "0xABE",
+    "bit_index": 7,
+    "id": "72000",
+    "name": "Belurat, Tower Settlement - Theatre of the Divine Beast"
+  },
+  {
+    "byte_offset": "0xABE",
+    "bit_index": 6,
+    "id": "72001",
+    "name": "Belurat, Tower Settlement - Belurat, Tower Settlement"
+  },
+  {
+    "byte_offset": "0xABE",
+    "bit_index": 5,
+    "id": "72002",
+    "name": "Belurat, Tower Settlement - Small Private Altar"
+  },
+  {
+    "byte_offset": "0xABE",
+    "bit_index": 4,
+    "id": "72003",
+    "name": "Belurat, Tower Settlement - Stagefront"
+  },
+  {
+    "byte_offset": "0xABF",
+    "bit_index": 5,
+    "id": "72010",
+    "name": "Enir-Ilim - Gate of Divinity"
+  },
+  {
+    "byte_offset": "0xABF",
+    "bit_index": 3,
+    "id": "72012",
+    "name": "Enir-Ilim - Enir-Ilim: Outer Wall"
+  },
+  {
+    "byte_offset": "0xABF",
+    "bit_index": 2,
+    "id": "72013",
+    "name": "Enir-Ilim - First Rise"
+  },
+  {
+    "byte_offset": "0xABF",
+    "bit_index": 1,
+    "id": "72014",
+    "name": "Enir-Ilim - Spiral Rise"
+  },
+  {
+    "byte_offset": "0xABF",
+    "bit_index": 0,
+    "id": "72015",
+    "name": "Enir-Ilim - Cleansing Chamber Anteroom"
+  },
+  {
+    "byte_offset": "0xAC0",
+    "bit_index": 7,
+    "id": "72016",
+    "name": "Enir-Ilim - Divine Gate Front Staircase"
+  },
+  {
+    "byte_offset": "0xACA",
+    "bit_index": 2,
+    "id": "72101",
+    "name": "Shadow Keep - Main Gate Plaza"
+  },
+  {
+    "byte_offset": "0xACA",
+    "bit_index": 1,
+    "id": "72102",
+    "name": "Shadow Keep - Shadow Keep Main Gate"
+  },
+  {
+    "byte_offset": "0xACB",
+    "bit_index": 5,
+    "id": "72106",
+    "name": "Shadow Keep, Church District - Church District Entrance"
+  },
+  {
+    "byte_offset": "0xACB",
+    "bit_index": 4,
+    "id": "72107",
+    "name": "Shadow Keep, Church District - Sunken Chapel"
+  },
+  {
+    "byte_offset": "0xACB",
+    "bit_index": 3,
+    "id": "72108",
+    "name": "Shadow Keep, Church District - Tree,Worship Passage"
+  },
+  {
+    "byte_offset": "0xACB",
+    "bit_index": 2,
+    "id": "72109",
+    "name": "Shadow Keep, Church District - Tree,Worship Sanctum"
+  },
+  {
+    "byte_offset": "0xACB",
+    "bit_index": 1,
+    "id": "72110",
+    "name": "Specimen Storehouse - Messmer's Dark Chamber"
+  },
+  {
+    "byte_offset": "0xACB",
+    "bit_index": 0,
+    "id": "72111",
+    "name": "Specimen Storehouse - Storehouse, First Floor"
+  },
+  {
+    "byte_offset": "0xACC",
+    "bit_index": 7,
+    "id": "72112",
+    "name": "Specimen Storehouse - Storehouse, Fourth Floor"
+  },
+  {
+    "byte_offset": "0xACC",
+    "bit_index": 6,
+    "id": "72113",
+    "name": "Specimen Storehouse - Storehouse, Seventh Floor"
+  },
+  {
+    "byte_offset": "0xACC",
+    "bit_index": 5,
+    "id": "72114",
+    "name": "Specimen Storehouse - Dark Chamber Entrance"
+  },
+  {
+    "byte_offset": "0xACC",
+    "bit_index": 3,
+    "id": "72116",
+    "name": "Specimen Storehouse - Storehouse, Back Section"
+  },
+  {
+    "byte_offset": "0xACC",
+    "bit_index": 2,
+    "id": "72117",
+    "name": "Specimen Storehouse - Storehouse, Loft"
+  },
+  {
+    "byte_offset": "0xACD",
+    "bit_index": 7,
+    "id": "72120",
+    "name": "Specimen Storehouse - West Rampart"
+  },
+  {
+    "byte_offset": "0xAD7",
+    "bit_index": 7,
+    "id": "72200",
+    "name": "Stone Coffin Fissure - Garden of Deep Purple"
+  },
+  {
+    "byte_offset": "0xAD7",
+    "bit_index": 6,
+    "id": "72201",
+    "name": "Stone Coffin Fissure - Stone Coffin Fissure"
+  },
+  {
+    "byte_offset": "0xAD7",
+    "bit_index": 5,
+    "id": "72202",
+    "name": "Stone Coffin Fissure - Fissure Cross"
+  },
+  {
+    "byte_offset": "0xAD7",
+    "bit_index": 4,
+    "id": "72203",
+    "name": "Stone Coffin Fissure - Fissure Waypoint"
+  },
+  {
+    "byte_offset": "0xAD7",
+    "bit_index": 3,
+    "id": "72204",
+    "name": "Stone Coffin Fissure - Fissure Depths"
+  },
+  {
+    "byte_offset": "0xAFC",
+    "bit_index": 3,
+    "id": "72500",
+    "name": "Scadu Altus - Finger Birthing Grounds"
+  },
+  {
+    "byte_offset": "0xB22",
+    "bit_index": 7,
+    "id": "72800",
+    "name": "Midra's Manse - Discussion Chamber"
+  },
+  {
+    "byte_offset": "0xB22",
+    "bit_index": 6,
+    "id": "72801",
+    "name": "Midra's Manse - Manse Hall"
+  },
+  {
+    "byte_offset": "0xB22",
+    "bit_index": 5,
+    "id": "72802",
+    "name": "Midra's Manse - Midra's Library"
+  },
+  {
+    "byte_offset": "0xB22",
+    "bit_index": 4,
+    "id": "72803",
+    "name": "Midra's Manse - Second Floor Chamber"
+  },
+  {
+    "byte_offset": "0xBB8",
+    "bit_index": 7,
+    "id": "74000",
+    "name": "Gravesite Plain - Fog Rift Catacombs"
+  },
+  {
+    "byte_offset": "0xBD1",
+    "bit_index": 7,
+    "id": "74200",
+    "name": "Gravesite Plain - Ruined Forge Lava Intake"
+  },
+  {
+    "byte_offset": "0xBDD",
+    "bit_index": 3,
+    "id": "74300",
+    "name": "Gravesite Plain - Rivermouth Cave"
+  },
+  {
+    "byte_offset": "0xBDD",
+    "bit_index": 2,
+    "id": "74301",
+    "name": "Gravesite Plain - Dragon's Pit"
+  },
+  {
+    "byte_offset": "0xBE3",
+    "bit_index": 0,
+    "id": "74351",
+    "name": "Gravesite Plain - Dragon's Pit Terminus"
+  },
+  {
+    "byte_offset": "0xD16",
+    "bit_index": 3,
+    "id": "76804",
+    "name": "Gravesite Plain - Cliffroad Terminus"
+  },
+  {
+    "byte_offset": "0xD16",
+    "bit_index": 4,
+    "id": "76803",
+    "name": "Gravesite Plain - Main Gate Cross"
+  },
+  {
+    "byte_offset": "0xD16",
+    "bit_index": 7,
+    "id": "76800",
+    "name": "Gravesite Plain - Gravesite Plain"
+  },
+  {
+    "byte_offset": "0xD16",
+    "bit_index": 5,
+    "id": "76802",
+    "name": "Gravesite Plain - Three,Path Cross"
+  },
+  {
+    "byte_offset": "0xD16",
+    "bit_index": 2,
+    "id": "76805",
+    "name": "Gravesite Plain - Greatbridge, North"
+  },
+  {
+    "byte_offset": "0xD16",
+    "bit_index": 6,
+    "id": "76801",
+    "name": "Gravesite Plain - Scorched Ruins"
+  },
+  {
+    "byte_offset": "0xD17",
+    "bit_index": 3,
+    "id": "76812",
+    "name": "Gravesite Plain - Ellac River Cave"
+  },
+  {
+    "byte_offset": "0xD17",
+    "bit_index": 2,
+    "id": "76813",
+    "name": "Gravesite Plain - Castle Front"
+  },
+  {
+    "byte_offset": "0xD17",
+    "bit_index": 4,
+    "id": "76811",
+    "name": "Gravesite Plain - Pillar Path Waypoint"
+  },
+  {
+    "byte_offset": "0xD17",
+    "bit_index": 5,
+    "id": "76810",
+    "name": "Gravesite Plain - Pillar Path Cross"
+  },
+  {
+    "byte_offset": "0xBC4",
+    "bit_index": 3,
+    "id": "74100",
+    "name": "Gravesite Plain - Belurat Gaol"
+  },
+  {
+    "byte_offset": "0xD19",
+    "bit_index": 1,
+    "id": "76830",
+    "name": "Gravesite Plain - Ellac River Downstream"
+  },
+  {
+    "byte_offset": "0xD1B",
+    "bit_index": 6,
+    "id": "76841",
+    "name": "Charo's Hidden Grave - Charo's Hidden Grave"
+  },
+  {
+    "byte_offset": "0xBC4",
+    "bit_index": 1,
+    "id": "74102",
+    "name": "Charo's Hidden Grave - Lamenter's Gaol"
+  },
+  {
+    "byte_offset": "0xD18",
+    "bit_index": 2,
+    "id": "76821",
+    "name": "Castle Ensis - Castle Ensis Checkpoint"
+  },
+  {
+    "byte_offset": "0xD18",
+    "bit_index": 0,
+    "id": "76823",
+    "name": "Castle Ensis - Ensis Moongazing Grounds"
+  },
+  {
+    "byte_offset": "0xD18",
+    "bit_index": 1,
+    "id": "76822",
+    "name": "Castle Ensis - Castle,Lord's Chamber"
+  },
+  {
+    "byte_offset": "0xD1A",
+    "bit_index": 7,
+    "id": "76832",
+    "name": "Cerulean Coast - Cerulean Coast West"
+  },
+  {
+    "byte_offset": "0xD1A",
+    "bit_index": 6,
+    "id": "76833",
+    "name": "Cerulean Coast - The Fissure"
+  },
+  {
+    "byte_offset": "0xD1A",
+    "bit_index": 4,
+    "id": "76835",
+    "name": "Cerulean Coast - Cerulean Coast Cross"
+  },
+  {
+    "byte_offset": "0xD19",
+    "bit_index": 0,
+    "id": "76831",
+    "name": "Cerulean Coast - Cerulean Coast"
+  },
+  {
+    "byte_offset": "0xD1A",
+    "bit_index": 5,
+    "id": "76834",
+    "name": "Cerulean Coast - Finger Ruins of Rhia"
+  },
+  {
+    "byte_offset": "0xD1B",
+    "bit_index": 7,
+    "id": "76840",
+    "name": "Foot of the Jagged Peak - Grand Altar of Dragon Communion"
+  },
+  {
+    "byte_offset": "0xD1D",
+    "bit_index": 2,
+    "id": "76861",
+    "name": "Abyssal Woods - Divided Falls"
+  },
+  {
+    "byte_offset": "0xD1D",
+    "bit_index": 3,
+    "id": "76860",
+    "name": "Abyssal Woods - Abyssal Woods"
+  },
+  {
+    "byte_offset": "0xD1D",
+    "bit_index": 1,
+    "id": "76862",
+    "name": "Abyssal Woods - Forsaken Graveyard"
+  },
+  {
+    "byte_offset": "0xD1E",
+    "bit_index": 7,
+    "id": "76864",
+    "name": "Abyssal Woods - Church Ruins"
+  },
+  {
+    "byte_offset": "0xD1D",
+    "bit_index": 0,
+    "id": "76863",
+    "name": "Abyssal Woods - Woodland Trail"
+  },
+  {
+    "byte_offset": "0xD1C",
+    "bit_index": 5,
+    "id": "76850",
+    "name": "Foot of the Jagged Peak - Foot of the Jagged Peak"
+  },
+  {
+    "byte_offset": "0xD1C",
+    "bit_index": 4,
+    "id": "76851",
+    "name": "Jagged Peak - Jagged Peak Mountainside"
+  },
+  {
+    "byte_offset": "0xD1C",
+    "bit_index": 3,
+    "id": "76852",
+    "name": "Jagged Peak - Jagged Peak Summit"
+  },
+  {
+    "byte_offset": "0xD1C",
+    "bit_index": 2,
+    "id": "76853",
+    "name": "Jagged Peak - Rest of the Dread Dragon"
+  },
+  {
+    "byte_offset": "0xD28",
+    "bit_index": 7,
+    "id": "76944",
+    "name": "Ancient Ruins of Rauh - Ancient Ruins, Grand Stairway"
+  },
+  {
+    "byte_offset": "0xD28",
+    "bit_index": 6,
+    "id": "76945",
+    "name": "Ancient Ruins of Rauh - Church of the Bud"
+  },
+  {
+    "byte_offset": "0xD27",
+    "bit_index": 0,
+    "id": "76943",
+    "name": "Ancient Ruins of Rauh - Church of the Bud, Main Entrance"
+  },
+  {
+    "byte_offset": "0xD27",
+    "bit_index": 1,
+    "id": "76942",
+    "name": "Ancient Ruins of Rauh - Rauh Ancient Ruins, West"
+  },
+  {
+    "byte_offset": "0xD27",
+    "bit_index": 2,
+    "id": "76941",
+    "name": "Ancient Ruins of Rauh - Rauh Ancient Ruins, East"
+  },
+  {
+    "byte_offset": "0xD27",
+    "bit_index": 3,
+    "id": "76940",
+    "name": "Ancient Ruins of Rauh - Viaduct Minor Tower"
+  },
+  {
+    "byte_offset": "0xD24",
+    "bit_index": 6,
+    "id": "76913",
+    "name": "Rauh Base - Temple Town Ruins"
+  },
+  {
+    "byte_offset": "0xD24",
+    "bit_index": 5,
+    "id": "76914",
+    "name": "Rauh Base - Ravine North"
+  },
+  {
+    "byte_offset": "0xBB8",
+    "bit_index": 6,
+    "id": "74001",
+    "name": "Rauh Base - Scorpion River Catacombs"
+  },
+  {
+    "byte_offset": "0xBD1",
+    "bit_index": 4,
+    "id": "74203",
+    "name": "Rauh Base - Taylew's Ruined Forge"
+  },
+  {
+    "byte_offset": "0xD24",
+    "bit_index": 7,
+    "id": "76912",
+    "name": "Rauh Base - Ancient Ruins Base"
+  },
+  {
+    "byte_offset": "0xBB8",
+    "bit_index": 5,
+    "id": "74002",
+    "name": "Scadu Altus - Darklight Catacombs"
+  },
+  {
+    "byte_offset": "0xBC4",
+    "bit_index": 2,
+    "id": "74101",
+    "name": "Scadu Altus - Bonny Gaol"
+  },
+  {
+    "byte_offset": "0xD22",
+    "bit_index": 3,
+    "id": "76900",
+    "name": "Scadu Altus - Highroad Cross"
+  },
+  {
+    "byte_offset": "0xD23",
+    "bit_index": 4,
+    "id": "76907",
+    "name": "Scadu Altus - Scadu Altus, West"
+  },
+  {
+    "byte_offset": "0xD23",
+    "bit_index": 3,
+    "id": "76908",
+    "name": "Scadu Altus - Moorth Highway, South"
+  },
+  {
+    "byte_offset": "0xD23",
+    "bit_index": 2,
+    "id": "76909",
+    "name": "Scadu Altus - Fort of Reprimand"
+  },
+  {
+    "byte_offset": "0xD23",
+    "bit_index": 1,
+    "id": "76910",
+    "name": "Scadu Altus - Behind the Fort of Reprimand"
+  },
+  {
+    "byte_offset": "0xD22",
+    "bit_index": 1,
+    "id": "76902",
+    "name": "Scadu Altus - Moorth Ruins"
+  },
+  {
+    "byte_offset": "0xD22",
+    "bit_index": 0,
+    "id": "76903",
+    "name": "Scadu Altus - Bonny Village"
+  },
+  {
+    "byte_offset": "0xD24",
+    "bit_index": 3,
+    "id": "76916",
+    "name": "Scadu Altus - Castle Watering Hole"
+  },
+  {
+    "byte_offset": "0xBD1",
+    "bit_index": 5,
+    "id": "74202",
+    "name": "Scadu Altus - Ruined Forge of Starfall Past"
+  },
+  {
+    "byte_offset": "0xD23",
+    "bit_index": 0,
+    "id": "76911",
+    "name": "Scadu Altus - Scaduview Cross"
+  },
+  {
+    "byte_offset": "0xD24",
+    "bit_index": 1,
+    "id": "76918",
+    "name": "Scadu Altus - Recluses' River Downstream"
+  },
+  {
+    "byte_offset": "0xD24",
+    "bit_index": 2,
+    "id": "76917",
+    "name": "Scadu Altus - Recluses' River Upstream"
+  },
+  {
+    "byte_offset": "0xD23",
+    "bit_index": 7,
+    "id": "76904",
+    "name": "Scadu Altus - Bridge Leading to the Village"
+  },
+  {
+    "byte_offset": "0xD23",
+    "bit_index": 5,
+    "id": "76906",
+    "name": "Scadu Altus - Cathedral of Manus Metyr"
+  },
+  {
+    "byte_offset": "0xD23",
+    "bit_index": 6,
+    "id": "76905",
+    "name": "Scadu Altus - Church District Highroad"
+  },
+  {
+    "byte_offset": "0xD26",
+    "bit_index": 5,
+    "id": "76930",
+    "name": "Scaduview - Scaduview"
+  },
+  {
+    "byte_offset": "0xD26",
+    "bit_index": 4,
+    "id": "76931",
+    "name": "Scaduview - Shadow Keep, Back Gate"
+  },
+  {
+    "byte_offset": "0xD27",
+    "bit_index": 7,
+    "id": "76936",
+    "name": "Scaduview - Fingerstone Hill"
+  },
+  {
+    "byte_offset": "0xD27",
+    "bit_index": 6,
+    "id": "76937",
+    "name": "Scaduview - Hinterland Bridge"
+  },
+  {
+    "byte_offset": "0xD26",
+    "bit_index": 0,
+    "id": "76935",
+    "name": "Scaduview - Hinterland"
+  },
+  {
+    "byte_offset": "0xD2A",
+    "bit_index": 7,
+    "id": "76960",
+    "name": "Scaduview - Scadutree Base"
+  }
+]

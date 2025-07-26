@@ -1,0 +1,1865 @@
+[
+  {
+    "boss_id": 10000,
+    "name": "Romina, Saint of the Bud",
+    "region": "Ancient Ruins of Rauh",
+    "offset": 434807,
+    "is_remembrance": true,
+    "is_dlc": true,
+    "link": "https://eldenring.wiki.fextralife.com/Romina+Saint+of+the+Bud"
+  },
+  {
+    "boss_id": 10001,
+    "name": "Rugalea the Great Red Bear",
+    "region": "Scadu Altus",
+    "offset": 448807,
+    "is_remembrance": false,
+    "is_dlc": true,
+    "link": "https://eldenring.wiki.fextralife.com/Rugalea+the+Great+Red+Bear"
+  },
+  {
+    "boss_id": 10002,
+    "name": "Ghostflame Dragon",
+    "region": "Gravesite Plain",
+    "offset": 588807,
+    "is_remembrance": false,
+    "is_dlc": true,
+    "link": "https://eldenring.wiki.fextralife.com/Ghostflame+Dragon"
+  },
+  {
+    "boss_id": 10003,
+    "name": "Dancer of Ranah",
+    "region": "Cerulean Coast",
+    "offset": 707807,
+    "is_remembrance": false,
+    "is_dlc": true,
+    "link": "https://eldenring.wiki.fextralife.com/Dancer+of+Ranah"
+  },
+  {
+    "boss_id": 10004,
+    "name": "Demi-Human Queen Marigga",
+    "region": "Charo's Hidden Grave",
+    "offset": 721807,
+    "is_remembrance": false,
+    "is_dlc": true,
+    "link": "https://eldenring.wiki.fextralife.com/Demi-Human+Queen+Marigga"
+  },
+  {
+    "boss_id": 10005,
+    "name": "Blackgaol Knight",
+    "region": "Gravesite Plain",
+    "offset": 728807,
+    "is_remembrance": false,
+    "is_dlc": true,
+    "link": "https://eldenring.wiki.fextralife.com/Blackgaol+Knight"
+  },
+  {
+    "boss_id": 10006,
+    "name": "Red Bear",
+    "region": "Scadu Altus",
+    "offset": 756807,
+    "is_remembrance": false,
+    "is_dlc": true,
+    "link": "https://eldenring.wiki.fextralife.com/Red+Bear"
+  },
+  {
+    "boss_id": 10007,
+    "name": "Divine Beast Dancing Lion",
+    "region": "Ancient Ruins of Rauh",
+    "offset": 763807,
+    "is_remembrance": false,
+    "is_dlc": true,
+    "link": "https://eldenring.wiki.fextralife.com/Divine+Beast+Dancing+Lion"
+  },
+  {
+    "boss_id": 10008,
+    "name": "Death Rite Bird",
+    "region": "Charo's Hidden Grave",
+    "offset": 875807,
+    "is_remembrance": false,
+    "is_dlc": true,
+    "link": "https://eldenring.wiki.fextralife.com/Death+Rite+Bird"
+  },
+  {
+    "boss_id": 10009,
+    "name": "Black Knight Garrew",
+    "region": "Scadu Altus",
+    "offset": 917807,
+    "is_remembrance": false,
+    "is_dlc": true,
+    "link": "https://eldenring.wiki.fextralife.com/Black+Knight+Garrew"
+  },
+  {
+    "boss_id": 10010,
+    "name": "Ghostflame Dragon",
+    "region": "Cerulean Coast",
+    "offset": 1029853,
+    "is_remembrance": false,
+    "is_dlc": true,
+    "link": "https://eldenring.wiki.fextralife.com/Ghostflame+Dragon"
+  },
+  {
+    "boss_id": 10011,
+    "name": "Rellana, Twin Moon Knight",
+    "region": "Gravesite Plain",
+    "offset": 1071807,
+    "is_remembrance": true,
+    "is_dlc": true,
+    "link": "https://eldenring.wiki.fextralife.com/Rellana+Twin+Moon+Knight"
+  },
+  {
+    "boss_id": 10012,
+    "name": "Jagged Peak Drake",
+    "region": "Jagged Peak",
+    "offset": 1204807,
+    "is_remembrance": false,
+    "is_dlc": true,
+    "link": "https://eldenring.wiki.fextralife.com/Jagged+Peak+Drake"
+  },
+  {
+    "boss_id": 10013,
+    "name": "Ghostflame Dragon",
+    "region": "Scadu Altus",
+    "offset": 1218807,
+    "is_remembrance": false,
+    "is_dlc": true,
+    "link": "https://eldenring.wiki.fextralife.com/Ghostflame+Dragon"
+  },
+  {
+    "boss_id": 10014,
+    "name": "Black Knight Edredd",
+    "region": "Scadu Altus",
+    "offset": 1218853,
+    "is_remembrance": false,
+    "is_dlc": true,
+    "link": "https://eldenring.wiki.fextralife.com/Black+Knight+Edredd"
+  },
+  {
+    "boss_id": 10015,
+    "name": "Dryleaf Dane",
+    "region": "Scadu Altus",
+    "offset": 1225807,
+    "is_remembrance": false,
+    "is_dlc": true,
+    "link": "https://eldenring.wiki.fextralife.com/Dryleaf+Dane"
+  },
+  {
+    "boss_id": 10016,
+    "name": "Ralva the Great Red Bear",
+    "region": "Scadu Altus",
+    "offset": 1232807,
+    "is_remembrance": false,
+    "is_dlc": true,
+    "link": "https://eldenring.wiki.fextralife.com/Ralva+the+Great+Red+Bear"
+  },
+  {
+    "boss_id": 10017,
+    "name": "Commander Gaius",
+    "region": "Scaduview",
+    "offset": 1253807,
+    "is_remembrance": true,
+    "is_dlc": true,
+    "link": "https://eldenring.wiki.fextralife.com/Commander+Gaius"
+  },
+  {
+    "boss_id": 10018,
+    "name": "Tree Sentinel",
+    "region": "Scaduview",
+    "offset": 1400807,
+    "is_remembrance": false,
+    "is_dlc": true,
+    "link": "https://eldenring.wiki.fextralife.com/Tree+Sentinel"
+  },
+  {
+    "boss_id": 10019,
+    "name": "Scadutree Avatar",
+    "region": "Scaduview",
+    "offset": 1407807,
+    "is_remembrance": true,
+    "is_dlc": true,
+    "link": "https://eldenring.wiki.fextralife.com/Scadutree+Avatar"
+  },
+  {
+    "boss_id": 10020,
+    "name": "Tree Sentinel",
+    "region": "Scaduview",
+    "offset": 1407859,
+    "is_remembrance": false,
+    "is_dlc": true,
+    "link": "https://eldenring.wiki.fextralife.com/Tree+Sentinel"
+  },
+  {
+    "boss_id": 10021,
+    "name": "Rakshasa",
+    "region": "Scadu Altus",
+    "offset": 1533807,
+    "is_remembrance": false,
+    "is_dlc": true,
+    "link": "https://eldenring.wiki.fextralife.com/Rakshasa"
+  },
+  {
+    "boss_id": 10022,
+    "name": "Count Ymir, Mother of Fingers",
+    "region": "Scadu Altus",
+    "offset": 1540807,
+    "is_remembrance": false,
+    "is_dlc": true,
+    "link": "https://eldenring.wiki.fextralife.com/Count+Ymir+Mother+of+Fingers"
+  },
+  {
+    "boss_id": 10023,
+    "name": "Jagged Peak Drake",
+    "region": "Jagged Peak",
+    "offset": 1659699,
+    "is_remembrance": false,
+    "is_dlc": true,
+    "link": "https://eldenring.wiki.fextralife.com/Jagged+Peak+Drake"
+  },
+  {
+    "boss_id": 10024,
+    "name": "Jori, Elder Inquisitor",
+    "region": "Abyssal Woods",
+    "offset": 1680807,
+    "is_remembrance": false,
+    "is_dlc": true,
+    "link": "https://eldenring.wiki.fextralife.com/Jori+Elder+Inquisitor"
+  },
+  {
+    "boss_id": 10025,
+    "name": "Fallingstar Beast",
+    "region": "Scaduview",
+    "offset": 1715807,
+    "is_remembrance": false,
+    "is_dlc": true,
+    "link": "https://eldenring.wiki.fextralife.com/Fallingstar+Beast"
+  },
+  {
+    "boss_id": 10026,
+    "name": "Alecto, Black Knife Ringleader",
+    "region": "Moonlight Altar",
+    "offset": 2779807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Alecto,+Black+Knife+Ringleader"
+  },
+  {
+    "boss_id": 10027,
+    "name": "Erdtree Avatar",
+    "region": "Liurnia of the Lakes",
+    "offset": 2786807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Erdtree+Avatar"
+  },
+  {
+    "boss_id": 10028,
+    "name": "Bols, Carian Knight",
+    "region": "Liurnia of the Lakes",
+    "offset": 2800807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Bols+Carian+Knight"
+  },
+  {
+    "boss_id": 10029,
+    "name": "Glintstone Dragon Adula",
+    "region": "Moonlight Altar",
+    "offset": 3059807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Glintstone+Dragon+Adula"
+  },
+  {
+    "boss_id": 10030,
+    "name": "Glintstone Dragon Smarag",
+    "region": "Liurnia of the Lakes",
+    "offset": 3080807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Glintstone+Dragon+Smarag"
+  },
+  {
+    "boss_id": 10031,
+    "name": "Royal Revenant",
+    "region": "Liurnia of the Lakes",
+    "offset": 3101807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Royal+Revenant"
+  },
+  {
+    "boss_id": 10032,
+    "name": "Omenkiller",
+    "region": "Liurnia of the Lakes",
+    "offset": 3339807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Omenkiller"
+  },
+  {
+    "boss_id": 10033,
+    "name": "Royal Knight Loretta",
+    "region": "Liurnia of the Lakes",
+    "offset": 3395807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Royal+Knight+Loretta"
+  },
+  {
+    "boss_id": 10034,
+    "name": "Magma Wyrm",
+    "region": "Mt. Gelmir",
+    "offset": 3416807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Magma+Wyrm"
+  },
+  {
+    "boss_id": 10035,
+    "name": "Death Rite Bird",
+    "region": "Liurnia of the Lakes",
+    "offset": 3640807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Death+Rite+Bird"
+  },
+  {
+    "boss_id": 10036,
+    "name": "Night's Cavalry",
+    "region": "Liurnia of the Lakes",
+    "offset": 3661807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Night's+Cavalry"
+  },
+  {
+    "boss_id": 10037,
+    "name": "Onyx Lord",
+    "region": "Liurnia of the Lakes",
+    "offset": 3675807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Onyx+Lord"
+  },
+  {
+    "boss_id": 10038,
+    "name": "Full-Grown Fallingstar Beast",
+    "region": "Mt. Gelmir",
+    "offset": 3703807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Full-Grown+Fallingstar+Beast"
+  },
+  {
+    "boss_id": 10039,
+    "name": "Deathbird",
+    "region": "Liurnia of the Lakes",
+    "offset": 3899807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Deathbird"
+  },
+  {
+    "boss_id": 10040,
+    "name": "Bell Bearing Hunter",
+    "region": "Liurnia of the Lakes",
+    "offset": 3927807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Bell+Bearing+Hunter"
+  },
+  {
+    "boss_id": 10041,
+    "name": "Demi-Human Queen Maggie",
+    "region": "Mt. Gelmir",
+    "offset": 3976807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Demi-Human+Queen+Maggie"
+  },
+  {
+    "boss_id": 10042,
+    "name": "Ulcerated Tree Spirit",
+    "region": "Mt. Gelmir",
+    "offset": 3983813,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Ulcerated+Tree+Spirit"
+  },
+  {
+    "boss_id": 10043,
+    "name": "Adan, Thief of Fire",
+    "region": "Liurnia of the Lakes",
+    "offset": 4172807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Adan,+Thief+of+Fire"
+  },
+  {
+    "boss_id": 10044,
+    "name": "Erdtree Avatar",
+    "region": "Liurnia of the Lakes",
+    "offset": 4221807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Erdtree+Avatar"
+  },
+  {
+    "boss_id": 10045,
+    "name": "Demi-Human Queen Gilika",
+    "region": "Altus Plateau",
+    "offset": 4242807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Demi-Human+Queen+Gilika"
+  },
+  {
+    "boss_id": 10046,
+    "name": "Tibia Mariner",
+    "region": "Altus Plateau",
+    "offset": 4249807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Tibia+Mariner"
+  },
+  {
+    "boss_id": 10047,
+    "name": "Night's Cavalry",
+    "region": "Liurnia of the Lakes",
+    "offset": 4466807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Night's+Cavalry"
+  },
+  {
+    "boss_id": 10048,
+    "name": "Tibia Mariner",
+    "region": "Liurnia of the Lakes",
+    "offset": 4473807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Tibia+Mariner"
+  },
+  {
+    "boss_id": 10049,
+    "name": "Godefroy the Grafted",
+    "region": "Altus Plateau",
+    "offset": 4515807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Godefroy+the+Grafted"
+  },
+  {
+    "boss_id": 10050,
+    "name": "Night's Cavalry",
+    "region": "Altus Plateau",
+    "offset": 4522807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Night's+Cavalry"
+  },
+  {
+    "boss_id": 10051,
+    "name": "Elemer of the Briar",
+    "region": "Altus Plateau",
+    "offset": 4543807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Elemer+of+the+Briar"
+  },
+  {
+    "boss_id": 10052,
+    "name": "Black Knife Assassin",
+    "region": "Altus Plateau",
+    "offset": 4809807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Black+Knife+Assassin"
+  },
+  {
+    "boss_id": 10053,
+    "name": "Sanguine Noble",
+    "region": "Altus Plateau",
+    "offset": 4816807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Sanguine+Noble"
+  },
+  {
+    "boss_id": 10054,
+    "name": "Fallingstar Beast",
+    "region": "Altus Plateau",
+    "offset": 5075807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Fallingstar+Beast"
+  },
+  {
+    "boss_id": 10055,
+    "name": "Tree Sentinel(x2)",
+    "region": "Altus Plateau",
+    "offset": 5082807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Tree+Sentinel"
+  },
+  {
+    "boss_id": 10056,
+    "name": "Ancient Dragon Lansseax",
+    "region": "Altus Plateau",
+    "offset": 5089807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Ancient+Dragon+Lansseax"
+  },
+  {
+    "boss_id": 10057,
+    "name": "Wormface",
+    "region": "Altus Plateau",
+    "offset": 5096807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Wormface"
+  },
+  {
+    "boss_id": 10058,
+    "name": "Ancient Hero of Zamor",
+    "region": "Weeping Peninsula",
+    "offset": 5236807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Ancient+Hero+of+Zamor"
+  },
+  {
+    "boss_id": 10059,
+    "name": "Tree Sentinel",
+    "region": "Limgrave",
+    "offset": 5257807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Tree+Sentinel"
+  },
+  {
+    "boss_id": 10060,
+    "name": "Crucible Knight",
+    "region": "Limgrave",
+    "offset": 5264807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Crucible+Knight"
+  },
+  {
+    "boss_id": 10061,
+    "name": "Deathbird",
+    "region": "Limgrave",
+    "offset": 5271807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Deathbird"
+  },
+  {
+    "boss_id": 10062,
+    "name": "Bell Bearing Hunter",
+    "region": "Limgrave",
+    "offset": 5271853,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Bell+Bearing+Hunter"
+  },
+  {
+    "boss_id": 10063,
+    "name": "Godskin Apostle",
+    "region": "Altus Plateau",
+    "offset": 5390807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Godskin+Apostle"
+  },
+  {
+    "boss_id": 10064,
+    "name": "Leonine Misbegotten",
+    "region": "Weeping Peninsula",
+    "offset": 5495807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Leonine+Misbegotten"
+  },
+  {
+    "boss_id": 10065,
+    "name": "Erdtree Avatar",
+    "region": "Weeping Peninsula",
+    "offset": 5516807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Erdtree+Avatar"
+  },
+  {
+    "boss_id": 10066,
+    "name": "Flying Dragon Agheel",
+    "region": "Limgrave",
+    "offset": 5537807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Flying+Dragon+Agheel"
+  },
+  {
+    "boss_id": 10067,
+    "name": "Night's Cavalry",
+    "region": "Limgrave",
+    "offset": 5544807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Night's+Cavalry"
+  },
+  {
+    "boss_id": 10068,
+    "name": "Bell Bearing Hunter",
+    "region": "Capital Outskirts",
+    "offset": 5656807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Bell+Bearing+Hunter"
+  },
+  {
+    "boss_id": 10069,
+    "name": "Deathbird",
+    "region": "Weeping Peninsula",
+    "offset": 5789807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Deathbird"
+  },
+  {
+    "boss_id": 10070,
+    "name": "Night's Cavalry",
+    "region": "Weeping Peninsula",
+    "offset": 5789853,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Night's+Cavalry"
+  },
+  {
+    "boss_id": 10071,
+    "name": "Bloodhound Knight Darriwil",
+    "region": "Limgrave",
+    "offset": 5810807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Bloodhound+Knight+Darriwil"
+  },
+  {
+    "boss_id": 10072,
+    "name": "Mad Pumpkin Head",
+    "region": "Limgrave",
+    "offset": 5817807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Mad+Pumpkin+Head"
+  },
+  {
+    "boss_id": 10073,
+    "name": "Deathbird",
+    "region": "Capital Outskirts",
+    "offset": 5936807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Deathbird"
+  },
+  {
+    "boss_id": 10074,
+    "name": "Tibia Mariner",
+    "region": "Limgrave",
+    "offset": 6118807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Tibia+Mariner"
+  },
+  {
+    "boss_id": 10075,
+    "name": "Draconic Tree Sentinel",
+    "region": "Capital Outskirts",
+    "offset": 6209807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Draconic+Tree+Sentinel"
+  },
+  {
+    "boss_id": 10076,
+    "name": "Bayle the Dread",
+    "region": "Jagged Peak",
+    "offset": 6300807,
+    "is_remembrance": false,
+    "is_dlc": true,
+    "link": "https://eldenring.wiki.fextralife.com/Bayle+The+Dread"
+  },
+  {
+    "boss_id": 10077,
+    "name": "Ancient Dragon Senessax",
+    "region": "Jagged Peak",
+    "offset": 6300853,
+    "is_remembrance": false,
+    "is_dlc": true,
+    "link": "https://eldenring.wiki.fextralife.com/Ancient+Dragon+Senessax"
+  },
+  {
+    "boss_id": 10078,
+    "name": "Putrid Avatar",
+    "region": "Caelid",
+    "offset": 6685807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Putrid+Avatar"
+  },
+  {
+    "boss_id": 10079,
+    "name": "Decaying Ekzykes",
+    "region": "Caelid",
+    "offset": 6944807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Decaying+Ekzykes"
+  },
+  {
+    "boss_id": 10080,
+    "name": "Mad Pumpkin Head (Hammer) & Mad Pumpkin Head (Flail)",
+    "region": "Caelid",
+    "offset": 6965807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Mad+Pumpkin+Head"
+  },
+  {
+    "boss_id": 10081,
+    "name": "Bell Bearing Hunter",
+    "region": "Greyoll's Dragonbarrow",
+    "offset": 6972807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Bell+Bearing+Hunter"
+  },
+  {
+    "boss_id": 10082,
+    "name": "Night's Cavalry",
+    "region": "Forbidden Lands",
+    "offset": 7042807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Night's+Cavalry"
+  },
+  {
+    "boss_id": 10083,
+    "name": "Death Rite Bird",
+    "region": "Consecrated Snowfield",
+    "offset": 7084807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Death+Rite+Bird"
+  },
+  {
+    "boss_id": 10084,
+    "name": "Night's Cavalry",
+    "region": "Caelid",
+    "offset": 7224807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Night's+Cavalry"
+  },
+  {
+    "boss_id": 10085,
+    "name": "Death Rite Bird",
+    "region": "Caelid",
+    "offset": 7224853,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Death+Rite+Bird"
+  },
+  {
+    "boss_id": 10086,
+    "name": "Commander O'Neil",
+    "region": "Caelid",
+    "offset": 7231807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Commander+O'Neil"
+  },
+  {
+    "boss_id": 10087,
+    "name": "Nox Monk & Nox Swordstress",
+    "region": "Caelid",
+    "offset": 7238807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Nox+Monk"
+  },
+  {
+    "boss_id": 10088,
+    "name": "Battlemage Hugues",
+    "region": "Greyoll's Dragonbarrow",
+    "offset": 7238853,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Battlemage+Hugues"
+  },
+  {
+    "boss_id": 10089,
+    "name": "Black Blade Kindred",
+    "region": "Forbidden Lands",
+    "offset": 7329807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Black+Blade+Kindred"
+  },
+  {
+    "boss_id": 10090,
+    "name": "Great Wyrm Theodorix",
+    "region": "Consecrated Snowfield",
+    "offset": 7637807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Great+Wyrm+Theodorix"
+  },
+  {
+    "boss_id": 10091,
+    "name": "Death Rite Bird",
+    "region": "Mountaintops of the Giants",
+    "offset": 7644807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Death+Rite+Bird"
+  },
+  {
+    "boss_id": 10092,
+    "name": "Putrid Avatar",
+    "region": "Consecrated Snowfield",
+    "offset": 7644853,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Putrid+Avatar"
+  },
+  {
+    "boss_id": 10093,
+    "name": "Crucible Knight & Misbegotten Warrior",
+    "region": "Caelid",
+    "offset": 7777807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Crucible+Knight"
+  },
+  {
+    "boss_id": 10094,
+    "name": "Putrid Avatar",
+    "region": "Greyoll's Dragonbarrow",
+    "offset": 7805807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Putrid+Avatar"
+  },
+  {
+    "boss_id": 10095,
+    "name": "Black Blade Kindred",
+    "region": "Greyoll's Dragonbarrow",
+    "offset": 7826807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Black+Blade+Kindred"
+  },
+  {
+    "boss_id": 10096,
+    "name": "Commander Niall",
+    "region": "Mountaintops of the Giants",
+    "offset": 7924807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Commander+Niall"
+  },
+  {
+    "boss_id": 10097,
+    "name": "Flying Dragon Greyll",
+    "region": "Greyoll's Dragonbarrow",
+    "offset": 8092807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Flying+Dragon+Greyll"
+  },
+  {
+    "boss_id": 10098,
+    "name": "Night's Cavalry",
+    "region": "Greyoll's Dragonbarrow",
+    "offset": 8092853,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Night's+Cavalry"
+  },
+  {
+    "boss_id": 10099,
+    "name": "Erdtree Avatar",
+    "region": "Mountaintops of the Giants",
+    "offset": 8197807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Erdtree+Avatar"
+  },
+  {
+    "boss_id": 10100,
+    "name": "Roundtable Knight Vyke",
+    "region": "Mountaintops of the Giants",
+    "offset": 8477807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Roundtable+Knight+Vyke"
+  },
+  {
+    "boss_id": 10101,
+    "name": "Godrick the Grafted",
+    "region": "Stormveil Castle",
+    "offset": 11067807,
+    "is_remembrance": true,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Godrick+the+Grafted"
+  },
+  {
+    "boss_id": 10102,
+    "name": "Margit, the Fell Omen",
+    "region": "Stormveil Castle",
+    "offset": 11067853,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Margit,+The+Fell+Omen"
+  },
+  {
+    "boss_id": 10103,
+    "name": "Grafted Scion",
+    "region": "Liurnia of the Lakes",
+    "offset": 11076807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Grafted+Scion"
+  },
+  {
+    "boss_id": 10104,
+    "name": "Morgott, the Omen King",
+    "region": "Leyndell, Royal Capital",
+    "offset": 11103807,
+    "is_remembrance": true,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Morgott+the+Omen+King"
+  },
+  {
+    "boss_id": 10105,
+    "name": "Godfrey, First Elden Lord",
+    "region": "Leyndell, Royal Capital",
+    "offset": 11103853,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Godfrey,+First+Elden+Lord"
+  },
+  {
+    "boss_id": 10106,
+    "name": "Godfrey, First Elden Lord & Hoarah Loux, Warrior",
+    "region": "Leyndell, Ashen Capital",
+    "offset": 11112807,
+    "is_remembrance": true,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Godfrey,+First+Elden+Lord"
+  },
+  {
+    "boss_id": 10107,
+    "name": "Sir Gideon Ofnir, the All-Knowing",
+    "region": "Leyndell, Ashen Capital",
+    "offset": 11112853,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Sir+Gideon+Ofnir,+the+All-Knowing+(Boss)"
+  },
+  {
+    "boss_id": 10108,
+    "name": "Dragonkin Soldier of Nokstella",
+    "region": "Ainsel River",
+    "offset": 11166807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Dragonkin+Soldier+of+Nokstella"
+  },
+  {
+    "boss_id": 10109,
+    "name": "Dragonkin Soldier",
+    "region": "Ainsel River",
+    "offset": 11166853,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Dragonkin+Soldier"
+  },
+  {
+    "boss_id": 10110,
+    "name": "Valiant Gargoyle & Valiant Gargoyle (Twinblade)",
+    "region": "Siofra River",
+    "offset": 11175807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Valiant+Gargoyle"
+  },
+  {
+    "boss_id": 10111,
+    "name": "Dragonkin Soldier",
+    "region": "Siofra River",
+    "offset": 11175825,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Dragonkin+Soldier"
+  },
+  {
+    "boss_id": 10112,
+    "name": "Mimic Tear",
+    "region": "Siofra River",
+    "offset": 11175853,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Mimic+Tear+Ashes"
+  },
+  {
+    "boss_id": 10113,
+    "name": "Crucible Knight Siluria",
+    "region": "Deeproot Depths",
+    "offset": 11184385,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Crucible+Knight+Siluria"
+  },
+  {
+    "boss_id": 10114,
+    "name": "Fia's Champion & Sorcerer Rogier & Lionel the Lionhearted",
+    "region": "Deeproot Depths",
+    "offset": 11184807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Fia's+champions"
+  },
+  {
+    "boss_id": 10115,
+    "name": "Lichdragon Fortissax",
+    "region": "Deeproot Depths",
+    "offset": 11184853,
+    "is_remembrance": true,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Lichdragon+Fortissax"
+  },
+  {
+    "boss_id": 10116,
+    "name": "Astel, Naturalborn of the Void",
+    "region": "Ainsel River",
+    "offset": 11193807,
+    "is_remembrance": true,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Astel+Naturalborn+of+the+Void"
+  },
+  {
+    "boss_id": 10117,
+    "name": "Mohg, Lord of Blood",
+    "region": "Mohgwyn Dynasty Mausoleum",
+    "offset": 11202807,
+    "is_remembrance": true,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Mohg,+Lord+of+Blood"
+  },
+  {
+    "boss_id": 10118,
+    "name": "Ancestor Spirit",
+    "region": "Siofra River",
+    "offset": 11229807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Ancestor+Spirit"
+  },
+  {
+    "boss_id": 10119,
+    "name": "Regal Ancestor Spirit",
+    "region": "Siofra River",
+    "offset": 11238807,
+    "is_remembrance": true,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Regal+Ancestor+Spirit"
+  },
+  {
+    "boss_id": 10120,
+    "name": "Maliketh, the Black Blade",
+    "region": "Crumbling Farum Azula",
+    "offset": 11247807,
+    "is_remembrance": true,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Maliketh,+the+Black+Blade"
+  },
+  {
+    "boss_id": 10121,
+    "name": "Dragonlord Placidusax",
+    "region": "Crumbling Farum Azula",
+    "offset": 11247825,
+    "is_remembrance": true,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Dragonlord+Placidusax"
+  },
+  {
+    "boss_id": 10122,
+    "name": "Godskin Duo",
+    "region": "Crumbling Farum Azula",
+    "offset": 11247853,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Godskin+Duo"
+  },
+  {
+    "boss_id": 10123,
+    "name": "Rennala, Queen of the Full Moon",
+    "region": "Academy of Raya Lucaria",
+    "offset": 11274807,
+    "is_remembrance": true,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Rennala+Queen+of+the+Full+Moon"
+  },
+  {
+    "boss_id": 10124,
+    "name": "Red Wolf of Radagon",
+    "region": "Academy of Raya Lucaria",
+    "offset": 11274853,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Red+Wolf+of+Radagon"
+  },
+  {
+    "boss_id": 10125,
+    "name": "Malenia, Blade of Miquella & Malenia, Goddess of Rot",
+    "region": "Miquella's Haligtree",
+    "offset": 11301807,
+    "is_remembrance": true,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Malenia+Blade+of+Miquella"
+  },
+  {
+    "boss_id": 10126,
+    "name": "Loretta, Knight of the Haligtree",
+    "region": "Miquella's Haligtree",
+    "offset": 11301853,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Loretta,+Knight+of+the+Haligtree"
+  },
+  {
+    "boss_id": 10127,
+    "name": "God-Devouring Serpent & Rykard, Lord of Blasphemy",
+    "region": "Volcano Manor",
+    "offset": 11328807,
+    "is_remembrance": true,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/God-Devouring+Serpent"
+  },
+  {
+    "boss_id": 10128,
+    "name": "Godskin Noble",
+    "region": "Volcano Manor",
+    "offset": 11328853,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Godskin+Noble"
+  },
+  {
+    "boss_id": 10129,
+    "name": "Abductor Virgin (Swinging Sickle) & Abductor Virgin (Wheel)",
+    "region": "Volcano Manor",
+    "offset": 11328859,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Abductor+Virgins"
+  },
+  {
+    "boss_id": 10130,
+    "name": "Ulcerated Tree Spirit",
+    "region": "Limgrave",
+    "offset": 11382807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Ulcerated+Tree+Spirit"
+  },
+  {
+    "boss_id": 10131,
+    "name": "Soldier of Godrick",
+    "region": "Limgrave",
+    "offset": 11382853,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Soldier+of+Godrick"
+  },
+  {
+    "boss_id": 10132,
+    "name": "Radagon of the Golden Order & Elden Beast",
+    "region": "Leyndell, Ashen Capital",
+    "offset": 11409807,
+    "is_remembrance": true,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Radagon+of+the+Golden+Order"
+  },
+  {
+    "boss_id": 10133,
+    "name": "Mohg, the Omen",
+    "region": "Leyndell, Royal Capital",
+    "offset": 11436807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Mohg,+the+Omen"
+  },
+  {
+    "boss_id": 10134,
+    "name": "Esgar, Priest of Blood",
+    "region": "Leyndell, Royal Capital",
+    "offset": 11436853,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Esgar,+Priest+of+Blood"
+  },
+  {
+    "boss_id": 10135,
+    "name": "Magma Wyrm Makar",
+    "region": "Liurnia of the Lakes",
+    "offset": 11463807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Magma+Wyrm+Makar"
+  },
+  {
+    "boss_id": 10136,
+    "name": "Onyx Lord",
+    "region": "Capital Outskirts",
+    "offset": 11625807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Onyx+Lord"
+  },
+  {
+    "boss_id": 10137,
+    "name": "Godskin Apostle",
+    "region": "Greyoll's Dragonbarrow",
+    "offset": 11634807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Godskin+Apostle"
+  },
+  {
+    "boss_id": 10138,
+    "name": "Fell Twin(x2)",
+    "region": "Leyndell, Royal Capital",
+    "offset": 11643853,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Fell+Twins"
+  },
+  {
+    "boss_id": 10139,
+    "name": "Death Knight",
+    "region": "Scadu Altus",
+    "offset": 11697807,
+    "is_remembrance": false,
+    "is_dlc": true,
+    "link": "https://eldenring.wiki.fextralife.com/Death+Knight"
+  },
+  {
+    "boss_id": 10140,
+    "name": "Cemetery Shade",
+    "region": "Weeping Peninsula",
+    "offset": 11787807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Cemetery+Shade"
+  },
+  {
+    "boss_id": 10141,
+    "name": "Erdtree Burial Watchdog",
+    "region": "Weeping Peninsula",
+    "offset": 11796807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Erdtree+Burial+Watchdog"
+  },
+  {
+    "boss_id": 10142,
+    "name": "Erdtree Burial Watchdog",
+    "region": "Limgrave",
+    "offset": 11805807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Erdtree+Burial+Watchdog"
+  },
+  {
+    "boss_id": 10143,
+    "name": "Spiritcaller Snail",
+    "region": "Liurnia of the Lakes",
+    "offset": 11814807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Spirit-Caller+Snail"
+  },
+  {
+    "boss_id": 10144,
+    "name": "Grave Warden Duelist",
+    "region": "Limgrave",
+    "offset": 11823807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Grave+Warden+Duelist"
+  },
+  {
+    "boss_id": 10145,
+    "name": "Cemetery Shade",
+    "region": "Liurnia of the Lakes",
+    "offset": 11832807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Cemetery+Shade"
+  },
+  {
+    "boss_id": 10146,
+    "name": "Black Knife Assassin",
+    "region": "Liurnia of the Lakes",
+    "offset": 11832853,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Black+Knife+Assassin"
+  },
+  {
+    "boss_id": 10147,
+    "name": "Erdtree Burial Watchdog",
+    "region": "Liurnia of the Lakes",
+    "offset": 11841807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Erdtree+Burial+Watchdog"
+  },
+  {
+    "boss_id": 10148,
+    "name": "Erdtree Burial Watchdog",
+    "region": "Altus Plateau",
+    "offset": 11850807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Erdtree+Burial+Watchdog"
+  },
+  {
+    "boss_id": 10149,
+    "name": "Ancient Hero of Zamor",
+    "region": "Altus Plateau",
+    "offset": 11859807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Ancient+Hero+of+Zamor"
+  },
+  {
+    "boss_id": 10150,
+    "name": "Red Wolf of the Champion",
+    "region": "Mt. Gelmir",
+    "offset": 11868807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Red+Wolf+of+the+Champion"
+  },
+  {
+    "boss_id": 10151,
+    "name": "Crucible Knight & Crucible Knight Ordovis",
+    "region": "Capital Outskirts",
+    "offset": 11877807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Crucible+Knight"
+  },
+  {
+    "boss_id": 10152,
+    "name": "Black Knife Assassin",
+    "region": "Limgrave",
+    "offset": 11886807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Black+Knife+Assassin"
+  },
+  {
+    "boss_id": 10153,
+    "name": "Perfumer Tricia & Misbegotten Warrior",
+    "region": "Altus Plateau",
+    "offset": 11895807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Perfumer+Tricia"
+  },
+  {
+    "boss_id": 10154,
+    "name": "Grave Warden Duelist",
+    "region": "Capital Outskirts",
+    "offset": 11904807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Grave+Warden+Duelist"
+  },
+  {
+    "boss_id": 10155,
+    "name": "Erdtree Burial Watchdog (Sword) & Erdtree Burial Watchdog (Scepter)",
+    "region": "Caelid",
+    "offset": 11913807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Erdtree+Burial+Watchdog"
+  },
+  {
+    "boss_id": 10156,
+    "name": "Cemetery Shade",
+    "region": "Caelid",
+    "offset": 11922807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Cemetery+Shade"
+  },
+  {
+    "boss_id": 10157,
+    "name": "Putrid Tree Spirit",
+    "region": "Greyoll's Dragonbarrow",
+    "offset": 11931807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Putrid+Tree+Spirit"
+  },
+  {
+    "boss_id": 10158,
+    "name": "Ancient Hero of Zamor",
+    "region": "Mountaintops of the Giants",
+    "offset": 11940807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Ancient+Hero+of+Zamor"
+  },
+  {
+    "boss_id": 10159,
+    "name": "Ulcerated Tree Spirit",
+    "region": "Mountaintops of the Giants",
+    "offset": 11949807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Ulcerated+Tree+Spirit"
+  },
+  {
+    "boss_id": 10160,
+    "name": "Putrid Grave Warden Duelist",
+    "region": "Consecrated Snowfield",
+    "offset": 11958807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Putrid+Grave+Warden+Duelist"
+  },
+  {
+    "boss_id": 10161,
+    "name": "Stray Mimic Tear",
+    "region": "Consecrated Snowfield",
+    "offset": 11967807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Mimic+Tear"
+  },
+  {
+    "boss_id": 10162,
+    "name": "Patches",
+    "region": "Limgrave",
+    "offset": 12057807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Patches"
+  },
+  {
+    "boss_id": 10163,
+    "name": "Runebear",
+    "region": "Weeping Peninsula",
+    "offset": 12066807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Runebear"
+  },
+  {
+    "boss_id": 10164,
+    "name": "Miranda the Blighted Bloom",
+    "region": "Weeping Peninsula",
+    "offset": 12075807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Miranda+the+Blighted+Bloom"
+  },
+  {
+    "boss_id": 10165,
+    "name": "Beastman of Farum Azula",
+    "region": "Limgrave",
+    "offset": 12084807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Beastman+of+Farum+Azula"
+  },
+  {
+    "boss_id": 10166,
+    "name": "Cleanrot Knight",
+    "region": "Liurnia of the Lakes",
+    "offset": 12093807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Cleanrot+Knight"
+  },
+  {
+    "boss_id": 10167,
+    "name": "Bloodhound Knight",
+    "region": "Liurnia of the Lakes",
+    "offset": 12102807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Bloodhound+Knight"
+  },
+  {
+    "boss_id": 10168,
+    "name": "Crystalian (Staff) & Crystalian (Spear)",
+    "region": "Liurnia of the Lakes",
+    "offset": 12111807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Crystalians"
+  },
+  {
+    "boss_id": 10169,
+    "name": "Kindred of Rot(x2)",
+    "region": "Mt. Gelmir",
+    "offset": 12120807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Kindred+of+Rot"
+  },
+  {
+    "boss_id": 10170,
+    "name": "Demi-Human Queen Margot",
+    "region": "Mt. Gelmir",
+    "offset": 12138807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Demi-Human+Queen+Margot"
+  },
+  {
+    "boss_id": 10171,
+    "name": "Beastman of Farum Azula (Cleaver) & Beastman of Farum Azula (Throwing Knife)",
+    "region": "Greyoll's Dragonbarrow",
+    "offset": 12147807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Beastman+of+Farum+Azula"
+  },
+  {
+    "boss_id": 10172,
+    "name": "Putrid Crystalian (Ringblade) & Putrid Crystalian (Spear) & Putrid Crystalian (Staff)",
+    "region": "Caelid",
+    "offset": 12156807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Putrid+Crystalians"
+  },
+  {
+    "boss_id": 10173,
+    "name": "Misbegotten Crusader",
+    "region": "Consecrated Snowfield",
+    "offset": 12165807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Misbegotten+Crusader"
+  },
+  {
+    "boss_id": 10174,
+    "name": "Demi-Human Chief(x2)",
+    "region": "Limgrave",
+    "offset": 12192807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Demi-Human+Chief"
+  },
+  {
+    "boss_id": 10175,
+    "name": "Guardian Golem",
+    "region": "Limgrave",
+    "offset": 12201807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Guardian+Golem"
+  },
+  {
+    "boss_id": 10176,
+    "name": "Omenkiller & Miranda the Blighted Bloom",
+    "region": "Altus Plateau",
+    "offset": 12210807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Omenkiller"
+  },
+  {
+    "boss_id": 10177,
+    "name": "Black Knife Assassin",
+    "region": "Altus Plateau",
+    "offset": 12219807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Black+Knife+Assassin"
+  },
+  {
+    "boss_id": 10178,
+    "name": "Necromancer Garris",
+    "region": "Altus Plateau",
+    "offset": 12219853,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Necromancer+Garris"
+  },
+  {
+    "boss_id": 10179,
+    "name": "Cleanrot Knight (Spear) & Cleanrot Knight (Sickle)",
+    "region": "Greyoll's Dragonbarrow",
+    "offset": 12228807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Cleanrot+Knight"
+  },
+  {
+    "boss_id": 10180,
+    "name": "Frenzied Duelist",
+    "region": "Caelid",
+    "offset": 12237807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Frenzied+Duelist"
+  },
+  {
+    "boss_id": 10181,
+    "name": "Godskin Apostle & Godskin Noble & Spiritcaller Snail",
+    "region": "Mountaintops of the Giants",
+    "offset": 12246807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Godskin+Apostle"
+  },
+  {
+    "boss_id": 10182,
+    "name": "Scaly Misbegotten",
+    "region": "Weeping Peninsula",
+    "offset": 12327807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Scaly+Misbegotten"
+  },
+  {
+    "boss_id": 10183,
+    "name": "Stonedigger Troll",
+    "region": "Limgrave",
+    "offset": 12336807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Stonedigger+Troll"
+  },
+  {
+    "boss_id": 10184,
+    "name": "Crystalian (Ringblade)",
+    "region": "Liurnia of the Lakes",
+    "offset": 12345807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Crystalians"
+  },
+  {
+    "boss_id": 10185,
+    "name": "Stonedigger Troll",
+    "region": "Altus Plateau",
+    "offset": 12354807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Stonedigger+Troll"
+  },
+  {
+    "boss_id": 10186,
+    "name": "Crystalian (Spear) & Crystalian (Ringblade)",
+    "region": "Altus Plateau",
+    "offset": 12372807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Crystalians"
+  },
+  {
+    "boss_id": 10187,
+    "name": "Magma Wyrm",
+    "region": "Caelid",
+    "offset": 12381807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Magma+Wyrm"
+  },
+  {
+    "boss_id": 10188,
+    "name": "Fallingstar Beast",
+    "region": "Caelid",
+    "offset": 12390807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Fallingstar+Beast"
+  },
+  {
+    "boss_id": 10189,
+    "name": "Astel, Stars of Darkness",
+    "region": "Consecrated Snowfield",
+    "offset": 12399807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Astel,+Stars+of+Darkness"
+  },
+  {
+    "boss_id": 10190,
+    "name": "Divine Beast Dancing Lion",
+    "region": "Gravesite Plain",
+    "offset": 12417807,
+    "is_remembrance": true,
+    "is_dlc": true,
+    "link": "https://eldenring.wiki.fextralife.com/Divine+Beast+Dancing+Lion"
+  },
+  {
+    "boss_id": 10191,
+    "name": "Promised Consort Radahn & Radahn, Consort of Miquella",
+    "region": "Enir-Ilim",
+    "offset": 12426807,
+    "is_remembrance": true,
+    "is_dlc": true,
+    "link": "https://eldenring.wiki.fextralife.com/Promised+Consort+Radahn"
+  },
+  {
+    "boss_id": 10192,
+    "name": "Golden Hippopotamus",
+    "region": "Scadu Altus",
+    "offset": 12453853,
+    "is_remembrance": false,
+    "is_dlc": true,
+    "link": "https://eldenring.wiki.fextralife.com/Golden+Hippopotamus"
+  },
+  {
+    "boss_id": 10193,
+    "name": "Messmer the Impaler & Base Serpent Messmer",
+    "region": "Scadu Altus",
+    "offset": 12462807,
+    "is_remembrance": true,
+    "is_dlc": true,
+    "link": "https://eldenring.wiki.fextralife.com/Messmer+the+Impaler"
+  },
+  {
+    "boss_id": 10194,
+    "name": "Putrescent Knight",
+    "region": "Cerulean Coast",
+    "offset": 12489807,
+    "is_remembrance": true,
+    "is_dlc": true,
+    "link": "https://eldenring.wiki.fextralife.com/Putrescent+Knight"
+  },
+  {
+    "boss_id": 10195,
+    "name": "Metyr, Mother of Fingers",
+    "region": "Scadu Altus",
+    "offset": 12507807,
+    "is_remembrance": true,
+    "is_dlc": true,
+    "link": "https://eldenring.wiki.fextralife.com/Metyr+Mother+of+Fingers"
+  },
+  {
+    "boss_id": 10196,
+    "name": "Midra, Lord of Frenzied Flame",
+    "region": "Abyssal Woods",
+    "offset": 12561807,
+    "is_remembrance": true,
+    "is_dlc": true,
+    "link": "https://eldenring.wiki.fextralife.com/Midra+Lord+of+Frenzied+Flame"
+  },
+  {
+    "boss_id": 10197,
+    "name": "Death Knight",
+    "region": "Scadu Altus",
+    "offset": 12606807,
+    "is_remembrance": false,
+    "is_dlc": true,
+    "link": "https://eldenring.wiki.fextralife.com/Death+Knight"
+  },
+  {
+    "boss_id": 10198,
+    "name": "Demi-Human Swordmaster Onze",
+    "region": "Gravesite Plain",
+    "offset": 12642807,
+    "is_remembrance": false,
+    "is_dlc": true,
+    "link": "https://eldenring.wiki.fextralife.com/Demi-Human+Swordmaster+Onze"
+  },
+  {
+    "boss_id": 10199,
+    "name": "Curseblade Labirith",
+    "region": "Scadu Altus",
+    "offset": 12651807,
+    "is_remembrance": false,
+    "is_dlc": true,
+    "link": "https://eldenring.wiki.fextralife.com/Curseblade+Labirith"
+  },
+  {
+    "boss_id": 10200,
+    "name": "Lamenter",
+    "region": "Gravesite Plain",
+    "offset": 12660807,
+    "is_remembrance": false,
+    "is_dlc": true,
+    "link": "https://eldenring.wiki.fextralife.com/Lamenter"
+  },
+  {
+    "boss_id": 10201,
+    "name": "Chief Bloodfiend",
+    "region": "Gravesite Plain",
+    "offset": 12732807,
+    "is_remembrance": false,
+    "is_dlc": true,
+    "link": "https://eldenring.wiki.fextralife.com/Chief+Bloodfiend"
+  },
+  {
+    "boss_id": 10202,
+    "name": "Ancient Dragon-Man",
+    "region": "Jagged Peak",
+    "offset": 12741807,
+    "is_remembrance": false,
+    "is_dlc": true,
+    "link": "https://eldenring.wiki.fextralife.com/Ancient+Dragon-Man"
+  },
+  {
+    "boss_id": 10203,
+    "name": "Starscourge Radahn",
+    "region": "Caelid",
+    "offset": 13686807,
+    "is_remembrance": true,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Starscourge+Radahn"
+  },
+  {
+    "boss_id": 10204,
+    "name": "Borealis the Freezing Fog",
+    "region": "Mountaintops of the Giants",
+    "offset": 13974807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Borealis+the+Freezing+Fog"
+  },
+  {
+    "boss_id": 10205,
+    "name": "Fire Giant",
+    "region": "Mountaintops of the Giants",
+    "offset": 13983807,
+    "is_remembrance": true,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Fire+Giant"
+  },
+  {
+    "boss_id": 10206,
+    "name": "Night's Cavalry (Glaive) & Night's Cavalry (Flail)",
+    "region": "Consecrated Snowfield",
+    "offset": 14019807,
+    "is_remembrance": false,
+    "is_dlc": false,
+    "link": "https://eldenring.wiki.fextralife.com/Night's+Cavalry"
+  }
+]
