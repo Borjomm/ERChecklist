@@ -30,7 +30,7 @@ class MainWindow(QMainWindow):
         self.load_recent = self.file_menu.addMenu("Load Recent")
 
 
-        self.path_helper = PathHelper(self)
+        self.path_helper = PathHelper(self.generate_recent)
         coords = utils.get_spawn_coordinates(1920, 1080)
 
         self.window_title = "Elden Ring Checklist"

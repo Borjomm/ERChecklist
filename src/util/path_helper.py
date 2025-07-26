@@ -1,17 +1,11 @@
-from __future__ import annotations
 from pathlib import Path
 
 from PySide6.QtCore import QSettings, QStandardPaths
-from typing import TYPE_CHECKING
 from data import consts
 
-if TYPE_CHECKING:
-    from main_window import MainWindow
-
 class PathHelper():
-    def __init__(self, parent: "MainWindow"):
-        
-        self.main_window = parent
+    def __init__(self, ui_handler: callable):
+        self.ui_handler = ui_handler
         self.settings = QSettings(consts.CREATOR, consts.APP)
         self._path = self.settings.value("most_recent")
         value = self.settings.value("recent_list")
@@ -71,7 +65,7 @@ class PathHelper():
         self._recent_list.insert(0, new_entry)
         self._recent_list = self._recent_list[:5]
         self.settings.setValue("recent_list", self._recent_list)
-        self.main_window.generate_recent()
+        self.ui_handler()
 
     def get_character_slot(self):
         value = self.settings.value("char_slot")
