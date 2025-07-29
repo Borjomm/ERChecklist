@@ -7,11 +7,17 @@ from PySide6.QtCore import QObject
 from parser.wrapper import CharacterSelection, CharacterData
 from parser import update_data, get_headers, get_data
 
-def get_spawn_coordinates(width: int, height: int):
+def get_spawn_coordinates(scale: float):
     screen = QGuiApplication.primaryScreen()  # Получаем основной экран
-    wwidth = screen.geometry().width()  # Получаем геометрию экрана
-    wheight = screen.geometry().height()
-    geometry = ((wwidth-width)//2, (wheight-height)//2, width, height)
+    geo = screen.geometry()
+    sw, sh = geo.width(), geo.height()
+    sx, sy = geo.x(), geo.y()  # ← actual top-left corner in global coords
+    width = int(sw * scale)
+    height = int(sh * scale)
+
+    x = sx + (sw - width) // 2
+    y = sy + (sh - height) // 2
+    geometry = (x, y, width, height)
     return geometry
 
 def make_action(parent: QObject, name: str, handler: Callable, key_sequence: Optional[str] = None) -> QAction:

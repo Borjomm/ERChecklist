@@ -31,7 +31,7 @@ class MainWindow(QMainWindow):
 
 
         self.path_helper = PathHelper(self.generate_recent)
-        coords = utils.get_spawn_coordinates(1920, 1080)
+        coords = utils.get_spawn_coordinates(0.8) #Scaling
 
         self.window_title = "Elden Ring Checklist"
         self.setWindowTitle(self.window_title)
