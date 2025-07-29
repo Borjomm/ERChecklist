@@ -73,6 +73,10 @@ class PathHelper():
     
     def get_recent_list(self):
         return self._recent_list
+    
+    def cleanup(self):
+        self._recent_list = [item for item in self._recent_list if Path(item[0]).exists()]
+        self.settings.setValue("recent_list", self._recent_list)
 
     
             

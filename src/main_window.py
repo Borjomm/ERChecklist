@@ -2,6 +2,7 @@ from __future__ import annotations
 from PySide6.QtWidgets import QMainWindow, QWidget, QVBoxLayout, QMenuBar, QTabWidget
 from typing import TYPE_CHECKING
 from functools import partial
+import os
 
 from util import utils
 from util.path_helper import PathHelper
@@ -72,8 +73,8 @@ class MainWindow(QMainWindow):
 
     def generate_recent(self):
         self.load_recent.clear()
-        for p, s in self.path_helper.get_recent_list():
-            
+        self.path_helper.cleanup()
+        for id, p, s in enumerate(self.path_helper.get_recent_list()):
             action = utils.make_action(self, p, partial(self.file_io.load_file, p, s))
             self.load_recent.addAction(action)
 
