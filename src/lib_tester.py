@@ -4,7 +4,6 @@ import time
 
 # --- Configuration ---
 DLL_PATH = "./parser.dll"
-# !!! IMPORTANT: CHANGE THIS TO A VALID SAVE FILE PATH !!!
 SAVE_FILE_PATH = "D:\\Python\\save_parser\\borjom.sl2"
 CHARACTER_SLOT_TO_TEST = 0
 
